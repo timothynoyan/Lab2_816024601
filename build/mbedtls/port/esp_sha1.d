@@ -2,7 +2,7 @@ port/esp_sha1.o: \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/port/esp_sha1.c \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/timothynoyan/esp/gpio/build/include/sdkconfig.h \
+ /home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h \
@@ -14,7 +14,7 @@ port/esp_sha1.o: \
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/timothynoyan/esp/gpio/build/include/sdkconfig.h:
+/home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h:
 

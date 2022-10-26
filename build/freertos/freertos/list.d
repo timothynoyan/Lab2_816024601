@@ -2,7 +2,7 @@ freertos/list.o: \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/freertos/list.c \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/timothynoyan/esp/gpio/build/include/sdkconfig.h \
+ /home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -35,7 +35,7 @@ freertos/list.o: \
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/timothynoyan/esp/gpio/build/include/sdkconfig.h:
+/home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
