@@ -12,3 +12,4 @@ When the project is built, the sdkconfig.h header file is created. The settings 
  
 ### /sdk/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h
 
+The FreeRTOS kernel defaults are specified in the FreeRTOSConfig.h file. The features and functions of the RTOS that are used in our projects are managed by this file. FreeRTOS-specific features and functions can be enabled or disabled by making changes to this file.
