@@ -10,3 +10,5 @@ Each new project contains the sdkconfig file, an application-specific configurat
 
 When the project is built, the sdkconfig.h header file is created. The settings from the sdkconfig file are translated into a header file. Hence, if errors are made in the sdkconfig file, it would affect this file as well.
  
+### /sdk/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h
+
