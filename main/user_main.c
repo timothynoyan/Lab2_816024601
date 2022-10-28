@@ -14,10 +14,12 @@
 #include "esp_system.h"
 
 #include "freertos/semphr.h"
+#include "sys/time.h"
 
 /* Defining pin for LED */
 #define GPIO_OUTPUT 2
 
+static void active_wait();
 static void task1(void *pvParam);
 static void task2(void *pvParam);
 static void task3(void *pvParam);
@@ -70,8 +72,7 @@ void task1(void *pvParam)
 		}
 		
 		/* Actively wait for 0.5s */
-		for (int i = 500; i >= 0; i--) {
-		}
+		active_wait();
 		
 		/* Give back Mutex */
 		xSemaphoreGive(mutex_v);
@@ -96,8 +97,7 @@ void task2(void *pvParam)
 		}
 		
 		/* Actively wait for 0.5s */
-		for (int i = 500; i >= 0; i--) {
-		}
+		active_wait();
 		
 		/* Give back Mutex */
 		xSemaphoreGive(mutex_v);
@@ -112,5 +112,21 @@ void task3(void *pvParam)
 	while(1){
 		ESP_LOGI(TAG, "Status: %d\n", gpio_get_level(GPIO_OUTPUT));
 		vTaskDelay(1000/ portTICK_RATE_MS);
+	}
+}
+
+static void active_wait() {
+	struct timeval value;
+	gettimeofday(&value, NULL);
+	
+	int64_t initial = (int64_t)value.tv_sec * 1000000L + (int64_t)value.tv_usec;
+	
+	while (1){
+		gettimeofday(&value, NULL);
+		int64_t current = (int64_t)value.tv_sec * 1000000L + (int64_t)value.tv_usec;
+		/* Checking if 0.5 seconds elapsed */
+		if ((current - initial) >= 500000){
+			break;
+		}
 	}
 }
