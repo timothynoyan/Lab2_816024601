@@ -1,7 +1,7 @@
-user_main.o: /home/timothynoyan/esp/lab2/lab2_q1/gpio/main/user_main.c \
+user_main.o: /home/timothynoyan/esp/lab2/lab2_q2/gpio/main/user_main.c \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h \
+ /home/timothynoyan/esp/lab2/lab2_q2/gpio/build/include/sdkconfig.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -47,7 +47,7 @@ user_main.o: /home/timothynoyan/esp/lab2/lab2_q1/gpio/main/user_main.c \
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/timothynoyan/esp/lab2/lab2_q1/gpio/build/include/sdkconfig.h:
+/home/timothynoyan/esp/lab2/lab2_q2/gpio/build/include/sdkconfig.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -128,4 +128,4 @@ user_main.o: /home/timothynoyan/esp/lab2/lab2_q1/gpio/main/user_main.c \
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h:
-/home/timothynoyan/esp/lab2/lab2_q1/gpio/main/./user_main.c:
+/home/timothynoyan/esp/lab2/lab2_q2/gpio/main/./user_main.c:

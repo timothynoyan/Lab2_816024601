@@ -49,12 +49,13 @@ void app_main(void)
 	/* Creating mutex */
 	mutex_v = xSemaphoreCreateMutex();
 	
-	if (mutex_v != NULL){
-	xTaskCreate(task1, "task1", 2048, NULL, 2, NULL);
-	xTaskCreate(task2, "task2", 2048, NULL, 1, NULL);
-	}
+	/* Give the Semaphore */
+	xSemaphoreGive(mutex_v);
 	
-	xTaskCreate(task3, "task3", 2048, NULL, 3, NULL);
+	/* Setting tasks for the same priority for round-robin scheduling */
+	xTaskCreate(task1, "task1", 2048, NULL, 1, NULL);
+	xTaskCreate(task2, "task2", 2048, NULL, 1, NULL);
+	xTaskCreate(task3, "task3", 2048, NULL, 1, NULL);
 }
 	
 void task1(void *pvParam)
