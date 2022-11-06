@@ -40,8 +40,7 @@ user_main.o: /home/timothynoyan/esp/lab2/lab2_q2/gpio/main/user_main.c \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h \
- /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
- /opt/esp_sdk/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h
+ /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -126,6 +125,4 @@ user_main.o: /home/timothynoyan/esp/lab2/lab2_q2/gpio/main/user_main.c \
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
-
-/opt/esp_sdk/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h:
 /home/timothynoyan/esp/lab2/lab2_q2/gpio/main/./user_main.c:
