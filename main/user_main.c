@@ -13,13 +13,13 @@
 #include "esp_log.h"
 #include "esp_system.h"
 
+/* Including semaphore header file */
 #include "freertos/semphr.h"
-#include "sys/time.h"
 
 /* Defining pin for LED */
 #define GPIO_OUTPUT 2
 
-static void active_wait();
+unsigned int value;
 static void task1(void *pvParam);
 static void task2(void *pvParam);
 static void task3(void *pvParam);
@@ -29,8 +29,7 @@ static const char *TAG = "main";
 /* Declaring variable type of SemaphoreHandle_t */
 SemaphoreHandle_t mutex_v = NULL;
 
-void app_main(void)
-{	
+void app_main(void){	
 	/* Struct for configuring pins */
 	gpio_config_t io_conf;
     /*disable interrupt*/
@@ -46,24 +45,33 @@ void app_main(void)
     /*configure GPIO2 with the given settings*/
     gpio_config(&io_conf);
 	
+	value = 0;
+	
 	/* Creating mutex */
 	mutex_v = xSemaphoreCreateMutex();
 	
-	/* Give the Semaphore */
-	xSemaphoreGive(mutex_v);
+	/* Task 1 --> Task 2 --> Task 3
+	xTaskCreate(task1, "task1", 2048, NULL, 3, NULL);
+	xTaskCreate(task2, "task2", 2048, NULL, 2, NULL);
+	xTaskCreate(task3, "task3", 2048, NULL, 1, NULL); */
 	
-	/* Setting tasks for the same priority for round-robin scheduling */
-	xTaskCreate(task1, "task1", 2048, NULL, 1, NULL);
+	/* Task 1 --> Task 3 --> Task 2
+	xTaskCreate(task1, "task1", 2048, NULL, 3, NULL);
 	xTaskCreate(task2, "task2", 2048, NULL, 1, NULL);
+	xTaskCreate(task3, "task3", 2048, NULL, 2, NULL); */
+	
+	/* Task 2 --> Task 1 --> Task 3 */
+	xTaskCreate(task1, "task1", 2048, NULL, 2, NULL);
+	xTaskCreate(task2, "task2", 2048, NULL, 3, NULL);
 	xTaskCreate(task3, "task3", 2048, NULL, 1, NULL);
 }
 	
-void task1(void *pvParam)
-{
+void task1(void *pvParam){
 	while (1){
 		while (1){
-			if (xSemaphoreTake(mutex_v, (TickType_t)15) == pdTRUE) {
+			if (xSemaphoreTake(mutex_v, (TickType_t) 15) == pdTRUE) {
 				/* Turning LED on */
+				ESP_LOGI(TAG, "LED is turning on...\n");
 				gpio_set_level(GPIO_OUTPUT, 1);
 				break;
 			}
@@ -73,22 +81,28 @@ void task1(void *pvParam)
 		}
 		
 		/* Actively wait for 0.5s */
-		active_wait();
+		while (value != 2650000){
+		value++;
+		}
+		
+		ESP_LOGI(TAG, "Task 1 is complete.\n");
+		
+		value = 0;
 		
 		/* Give back Mutex */
 		xSemaphoreGive(mutex_v);
 		
 		/* Task-delay for 1 second */
-		vTaskDelay(1000/ portTICK_RATE_MS);
+		vTaskDelay(1000 / portTICK_RATE_MS);
 	}
 }
 
-void task2(void *pvParam)
-{
+void task2(void *pvParam){
 	while (1){
 		while (1){
-			if (xSemaphoreTake(mutex_v, (TickType_t)15) == pdTRUE) {
+			if (xSemaphoreTake(mutex_v, (TickType_t) 15) == pdTRUE) {
 				/* Turning LED off */
+				ESP_LOGI(TAG, "LED is turning off...\n");
 				gpio_set_level(GPIO_OUTPUT, 0);
 				break;
 			}
@@ -98,36 +112,28 @@ void task2(void *pvParam)
 		}
 		
 		/* Actively wait for 0.5s */
-		active_wait();
+		while (value != 2650000){
+		value++;
+		}
+		
+		ESP_LOGI(TAG, "Task 2 is complete.\n");
+		
+		value = 0;
 		
 		/* Give back Mutex */
 		xSemaphoreGive(mutex_v);
 		
 		/* Task-delay for 1 second */
-		vTaskDelay(1000/ portTICK_RATE_MS);
+		vTaskDelay(1000 / portTICK_RATE_MS);
 	}
 }
 
-void task3(void *pvParam)
-{
-	while(1){
-		ESP_LOGI(TAG, "Status: %d\n", gpio_get_level(GPIO_OUTPUT));
-		vTaskDelay(1000/ portTICK_RATE_MS);
-	}
-}
-
-static void active_wait() {
-	struct timeval value;
-	gettimeofday(&value, NULL);
-	
-	int64_t initial = (int64_t)value.tv_sec * 1000000L + (int64_t)value.tv_usec;
-	
+void task3(void *pvParam){
 	while (1){
-		gettimeofday(&value, NULL);
-		int64_t current = (int64_t)value.tv_sec * 1000000L + (int64_t)value.tv_usec;
-		/* Checking if 0.5 seconds elapsed */
-		if ((current - initial) >= 500000){
-			break;
+		ESP_LOGI(TAG, "Status of GPIO2: %d\n", gpio_get_level(GPIO_OUTPUT));
+		ESP_LOGI(TAG, "Task 3 is complete.\n");
+		
+		/* Task-delay for 1 second */
+		vTaskDelay(1000 / portTICK_RATE_MS);
 		}
-	}
 }

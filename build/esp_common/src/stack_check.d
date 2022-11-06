@@ -1,11 +1,11 @@
 src/stack_check.o: \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp_common/src/stack_check.c \
- /home/timothynoyan/esp/lab2/lab2_q2/gpio/build/include/sdkconfig.h \
+ /home/timothynoyan/esp/lab2/lab2_q2b/gpio/build/include/sdkconfig.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
-/home/timothynoyan/esp/lab2/lab2_q2/gpio/build/include/sdkconfig.h:
+/home/timothynoyan/esp/lab2/lab2_q2b/gpio/build/include/sdkconfig.h:
 
 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 
