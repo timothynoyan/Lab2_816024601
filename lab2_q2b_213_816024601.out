@@ -1,0 +1,285 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.06 17:09:29 =~=~=~=~=~=~=~=~=~=~=~=
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 7032, room 16 
+tail 8
+chksum 0x94
+load 0x3ffe8408, len 24, room 0 
+tail 8
+chksum 0x2d
+load 0x3ffe8420, len 3328, room 0 
+tail 0
+chksum 0x5d
+csum 0x5d
+[0;32mI (42) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 17:22:17[0m
+[0;32mI (43) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DIO[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (113) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15e14 ( 89620) map[0m
+[0;32mI (171) esp_image: segment 1: paddr=0x00025e2c vaddr=0x40225e24 size=0x059a4 ( 22948) map[0m
+[0;32mI (181) esp_image: segment 2: paddr=0x0002b7d8 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (182) esp_image: segment 3: paddr=0x0002bbbc vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (196) esp_image: segment 4: paddr=0x0002bc44 vaddr=0x40100080 size=0x04558 ( 17752) load[0m
+[0;32mI (216) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (238) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (243) main: LED is turning on...
+[0m
+[0;32mI (744) main: Task 1 is complete.
+[0m
+[0;32mI (746) main: LED is turning off...
+[0m
+[0;32mI (1245) main: Task 2 is complete.
+[0m
+[0;32mI (1248) main: Status of GPIO2: 0
+[0m
+[0;32mI (1250) main: Task 3 is complete.
+[0m
+[0;32mI (1741) main: LED is turning on...
+[0m
+[0;32mI (2240) main: Task 1 is complete.
+[0m
+[0;32mI (2243) main: LED is turning off...
+[0m
+[0;32mI (2742) main: Task 2 is complete.
+[0m
+[0;32mI (2745) main: Status of GPIO2: 0
+[0m
+[0;32mI (2747) main: Task 3 is complete.
+[0m
+[0;32mI (3741) main: LED is turning off...
+[0m
+[0;32mI (4240) main: Task 2 is complete.
+[0m
+[0;32mI (4243) main: LED is turning on...
+[0m
+[0;32mI (4742) main: Task 1 is complete.
+[0m
+[0;32mI (4745) main: Status of GPIO2: 1
+[0m
+[0;32mI (4747) main: Task 3 is complete.
+[0m
+[0;32mI (5241) main: LED is turning off...
+[0m
+[0;32mI (5740) main: Task 2 is complete.
+[0m
+[0;32mI (5743) main: LED is turning on...
+[0m
+[0;32mI (6242) main: Task 1 is complete.
+[0m
+[0;32mI (6245) main: Status of GPIO2: 1
+[0m
+[0;32mI (6247) main: Task 3 is complete.
+[0m
+[0;32mI (6741) main: LED is turning off...
+[0m
+[0;32mI (7240) main: Task 2 is complete.
+[0m
+[0;32mI (7243) main: LED is turning on...
+[0m
+[0;32mI (7742) main: Task 1 is complete.
+[0m
+[0;32mI (7745) main: Status of GPIO2: 1
+[0m
+[0;32mI (7747) main: Task 3 is complete.
+[0m
+[0;32mI (8241) main: LED is turning off...
+[0m
+[0;32mI (8740) main: Task 2 is complete.
+[0m
+[0;32mI (8743) main: LED is turning on...
+[0m
+[0;32mI (9242) main: Task 1 is complete.
+[0m
+[0;32mI (9245) main: Status of GPIO2: 1
+[0m
+[0;32mI (9247) main: Task 3 is complete.
+[0m
+[0;32mI (9742) main: LED is turning off...
+[0m
+[0;32mI (10241) main: Task 2 is complete.
+[0m
+[0;32mI (10244) main: LED is turning on...
+[0m
+[0;32mI (10743) main: Task 1 is complete.
+[0m
+[0;32mI (10746) main: Status of GPIO2: 1
+[0m
+[0;32mI (10748) main: Task 3 is complete.
+[0m
+[0;32mI (11242) main: LED is turning off...
+[0m
+[0;32mI (11741) main: Task 2 is complete.
+[0m
+[0;32mI (11744) main: LED is turning on...
+[0m
+[0;32mI (12243) main: Task 1 is complete.
+[0m
+[0;32mI (12246) main: Status of GPIO2: 1
+[0m
+[0;32mI (12248) main: Task 3 is complete.
+[0m
+[0;32mI (12742) main: LED is turning off...
+[0m
+[0;32mI (13241) main: Task 2 is complete.
+[0m
+[0;32mI (13244) main: LED is turning on...
+[0m
+[0;32mI (13743) main: Task 1 is complete.
+[0m
+[0;32mI (13746) main: Status of GPIO2: 1
+[0m
+[0;32mI (13748) main: Task 3 is complete.
+[0m
+[0;32mI (14242) main: LED is turning off...
+[0m
+[0;32mI (14741) main: Task 2 is complete.
+[0m
+[0;32mI (14744) main: LED is turning on...
+[0m
+[0;32mI (15243) main: Task 1 is complete.
+[0m
+[0;32mI (15246) main: Status of GPIO2: 1
+[0m
+[0;32mI (15248) main: Task 3 is complete.
+[0m
+[0;32mI (15742) main: LED is turning off...
+[0m
+[0;32mI (16241) main: Task 2 is complete.
+[0m
+[0;32mI (16244) main: LED is turning on...
+[0m
+[0;32mI (16743) main: Task 1 is complete.
+[0m
+[0;32mI (16746) main: Status of GPIO2: 1
+[0m
+[0;32mI (16748) main: Task 3 is complete.
+[0m
+[0;32mI (17242) main: LED is turning off...
+[0m
+[0;32mI (17741) main: Task 2 is complete.
+[0m
+[0;32mI (17744) main: LED is turning on...
+[0m
+[0;32mI (18243) main: Task 1 is complete.
+[0m
+[0;32mI (18246) main: Status of GPIO2: 1
+[0m
+[0;32mI (18248) main: Task 3 is complete.
+[0m
+[0;32mI (18742) main: LED is turning off...
+[0m
+[0;32mI (19241) main: Task 2 is complete.
+[0m
+[0;32mI (19244) main: LED is turning on...
+[0m
+[0;32mI (19744) main: Task 1 is complete.
+[0m
+[0;32mI (19747) main: Status of GPIO2: 1
+[0m
+[0;32mI (19749) main: Task 3 is complete.
+[0m
+[0;32mI (20243) main: LED is turning off...
+[0m
+[0;32mI (20742) main: Task 2 is complete.
+[0m
+[0;32mI (20745) main: LED is turning on...
+[0m
+[0;32mI (21244) main: Task 1 is complete.
+[0m
+[0;32mI (21247) main: Status of GPIO2: 1
+[0m
+[0;32mI (21249) main: Task 3 is complete.
+[0m
+[0;32mI (21743) main: LED is turning off...
+[0m
+[0;32mI (22242) main: Task 2 is complete.
+[0m
+[0;32mI (22245) main: LED is turning on...
+[0m
+[0;32mI (22744) main: Task 1 is complete.
+[0m
+[0;32mI (22747) main: Status of GPIO2: 1
+[0m
+[0;32mI (22749) main: Task 3 is complete.
+[0m
+[0;32mI (23243) main: LED is turning off...
+[0m
+[0;32mI (23742) main: Task 2 is complete.
+[0m
+[0;32mI (23745) main: LED is turning on...
+[0m
+[0;32mI (24244) main: Task 1 is complete.
+[0m
+[0;32mI (24247) main: Status of GPIO2: 1
+[0m
+[0;32mI (24249) main: Task 3 is complete.
+[0m
+[0;32mI (24743) main: LED is turning off...
+[0m
+[0;32mI (25242) main: Task 2 is complete.
+[0m
+[0;32mI (25245) main: LED is turning on...
+[0m
+[0;32mI (25744) main: Task 1 is complete.
+[0m
+[0;32mI (25747) main: Status of GPIO2: 1
+[0m
+[0;32mI (25749) main: Task 3 is complete.
+[0m
+[0;32mI (26243) main: LED is turning off...
+[0m
+[0;32mI (26742) main: Task 2 is complete.
+[0m
+[0;32mI (26745) main: LED is turning on...
+[0m
+[0;32mI (27244) main: Task 1 is complete.
+[0m
+[0;32mI (27247) main: Status of GPIO2: 1
+[0m
+[0;32mI (27249) main: Task 3 is complete.
+[0m
+[0;32mI (27743) main: LED is turning off...
+[0m
+[0;32mI (28242) main: Task 2 is complete.
+[0m
+[0;32mI (28245) main: LED is turning on...
+[0m
+[0;32mI (28744) main: Task 1 is complete.
+[0m
+[0;32mI (28747) main: Status of GPIO2: 1
+[0m
+[0;32mI (28749) main: Task 3 is complete.
+[0m
+[0;32mI (29243) main: LED is turning off...
+[0m
+[0;32mI (29743) main: Task 2 is complete.
+[0m
+[0;32mI (29746) main: LED is turning on...
+[0m
+[0;32mI (30245) main: Task 1 is complete.
+[0m
+[0;32mI (30248) main: Status of GPIO2: 1
+[0m
+[0;32mI (30250) main: Task 3 is complete.
+[0m
+[0;32mI (30744) main: LED is turning off...
+[0m
+[0;32mI (31243) main: Task 2 is complete.
+[0m
+[0;32mI (31246) main: LED is turning on...
+[0m
+[0;32mI (31745) main: Task 1 is complete.
+[0m
+[0;32mI (31748) main: Status of GPIO2: 1
+[0m
+[0;32mI (31750) main: Task 3 is complete.
+[0m
+ 
