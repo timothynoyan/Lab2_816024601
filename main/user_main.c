@@ -16,6 +16,11 @@
 /* Including semaphore header file */
 #include "freertos/semphr.h"
 
+/* Setting up IDLE "hook" function */
+#define configUSE_IDLE_HOOK 1
+#define configUSE_TICKLESS_IDLE 1
+#define configUSE_TIME_SLICING 0
+
 /* Defining pin for LED */
 #define GPIO_OUTPUT 2
 
@@ -23,6 +28,7 @@ unsigned int value;
 static void task1(void *pvParam);
 static void task2(void *pvParam);
 static void task3(void *pvParam);
+void vApplicationIdleHook(void);
 
 static const char *TAG = "main";
 
@@ -50,19 +56,10 @@ void app_main(void){
 	/* Creating mutex */
 	mutex_v = xSemaphoreCreateMutex();
 	
-	/* Task 1 --> Task 2 --> Task 3
-	xTaskCreate(task1, "task1", 2048, NULL, 3, NULL);
-	xTaskCreate(task2, "task2", 2048, NULL, 2, NULL);
-	xTaskCreate(task3, "task3", 2048, NULL, 1, NULL); */
-	
-	/* Task 1 --> Task 3 --> Task 2
-	xTaskCreate(task1, "task1", 2048, NULL, 3, NULL);
-	xTaskCreate(task2, "task2", 2048, NULL, 1, NULL);
-	xTaskCreate(task3, "task3", 2048, NULL, 2, NULL); */
-	
-	/* Task 2 --> Task 1 --> Task 3 */
-	xTaskCreate(task1, "task1", 2048, NULL, 2, NULL);
-	xTaskCreate(task2, "task2", 2048, NULL, 3, NULL);
+	if (mutex_v != NULL){
+		xTaskCreate(task1, "task1", 2048, NULL, 3, NULL);
+		xTaskCreate(task2, "task2", 2048, NULL, 2, NULL);
+	}
 	xTaskCreate(task3, "task3", 2048, NULL, 1, NULL);
 }
 	
@@ -136,4 +133,8 @@ void task3(void *pvParam){
 		/* Task-delay for 1 second */
 		vTaskDelay(1000 / portTICK_RATE_MS);
 		}
+}
+
+void vApplicationIdleHook(void){
+	ESP_LOGI(TAG, "The Processor is Sleeping.\n");
 }
