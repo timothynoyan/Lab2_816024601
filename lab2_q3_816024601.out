@@ -1,0 +1,2485 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.07 13:35:56 =~=~=~=~=~=~=~=~=~=~=~=
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7032, room 16 
+tail 8
+chksum 0x94
+load 0x3ffe8408, len 24, room 0 
+tail 8
+chksum 0x2d
+load 0x3ffe8420, len 3328, room 0 
+tail 0
+chksum 0x5d
+csum 0x5d
+[0;32mI (42) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 17:22:17[0m
+[0;32mI (43) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DIO[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (113) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15e2c ( 89644) map[0m
+[0;32mI (171) esp_image: segment 1: paddr=0x00025e44 vaddr=0x40225e3c size=0x059c0 ( 22976) map[0m
+[0;32mI (181) esp_image: segment 2: paddr=0x0002b80c vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (182) esp_image: segment 3: paddr=0x0002bbf0 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (196) esp_image: segment 4: paddr=0x0002bc78 vaddr=0x40100080 size=0x04558 ( 17752) load[0m
+[0;32mI (216) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (241) main: LED is turning on...
+[0m
+[0;32mI (742) main: Task 1 is complete.
+[0m
+[0;32mI (744) main: LED is turning off...
+[0m
+[0;32mI (1243) main: Task 2 is complete.
+[0m
+[0;32mI (1245) main: Status of GPIO2: 0
+[0m
+[0;32mI (1247) main: Task 3 is complete.
+[0m
+[0;32mI (1249) main: The Processor is Sleeping.
+[0m
+[0;32mI (1260) main: The Processor is Sleeping.
+[0m
+[0;32mI (1270) main: The Processor is Sleeping.
+[0m
+[0;32mI (1280) main: The Processor is Sleeping.
+[0m
+[0;32mI (1290) main: The Processor is Sleeping.
+[0m
+[0;32mI (1300) main: The Processor is Sleeping.
+[0m
+[0;32mI (1310) main: The Processor is Sleeping.
+[0m
+[0;32mI (1320) main: The Processor is Sleeping.
+[0m
+[0;32mI (1330) main: The Processor is Sleeping.
+[0m
+[0;32mI (1340) main: The Processor is Sleeping.
+[0m
+[0;32mI (1350) main: The Processor is Sleeping.
+[0m
+[0;32mI (1360) main: The Processor is Sleeping.
+[0m
+[0;32mI (1370) main: The Processor is Sleeping.
+[0m
+[0;32mI (1380) main: The Processor is Sleeping.
+[0m
+[0;32mI (1390) main: The Processor is Sleeping.
+[0m
+[0;32mI (1400) main: The Processor is Sleeping.
+[0m
+[0;32mI (1410) main: The Processor is Sleeping.
+[0m
+[0;32mI (1420) main: The Processor is Sleeping.
+[0m
+[0;32mI (1430) main: The Processor is Sleeping.
+[0m
+[0;32mI (1440) main: The Processor is Sleeping.
+[0m
+[0;32mI (1450) main: The Processor is Sleeping.
+[0m
+[0;32mI (1460) main: The Processor is Sleeping.
+[0m
+[0;32mI (1470) main: The Processor is Sleeping.
+[0m
+[0;32mI (1480) main: The Processor is Sleeping.
+[0m
+[0;32mI (1490) main: The Processor is Sleeping.
+[0m
+[0;32mI (1500) main: The Processor is Sleeping.
+[0m
+[0;32mI (1510) main: The Processor is Sleeping.
+[0m
+[0;32mI (1520) main: The Processor is Sleeping.
+[0m
+[0;32mI (1530) main: The Processor is Sleeping.
+[0m
+[0;32mI (1540) main: The Processor is Sleeping.
+[0m
+[0;32mI (1550) main: The Processor is Sleeping.
+[0m
+[0;32mI (1560) main: The Processor is Sleeping.
+[0m
+[0;32mI (1570) main: The Processor is Sleeping.
+[0m
+[0;32mI (1580) main: The Processor is Sleeping.
+[0m
+[0;32mI (1590) main: The Processor is Sleeping.
+[0m
+[0;32mI (1600) main: The Processor is Sleeping.
+[0m
+[0;32mI (1610) main: The Processor is Sleeping.
+[0m
+[0;32mI (1620) main: The Processor is Sleeping.
+[0m
+[0;32mI (1630) main: The Processor is Sleeping.
+[0m
+[0;32mI (1640) main: The Processor is Sleeping.
+[0m
+[0;32mI (1650) main: The Processor is Sleeping.
+[0m
+[0;32mI (1660) main: The Processor is Sleeping.
+[0m
+[0;32mI (1670) main: The Processor is Sleeping.
+[0m
+[0;32mI (1680) main: The Processor is Sleeping.
+[0m
+[0;32mI (1690) main: The Processor is Sleeping.
+[0m
+[0;32mI (1700) main: The Processor is Sleeping.
+[0m
+[0;32mI (1710) main: The Processor is Sleeping.
+[0m
+[0;32mI (1720) main: The Processor is Sleeping.
+[0m
+[0;32mI (1730) main: The Processor is Sleeping.
+[0m
+[0;32mI (1740) main: LED is turning on...
+[0m
+[0;32mI (2239) main: Task 1 is complete.
+[0m
+[0;32mI (2241) main: LED is turning off...
+[0m
+[0;32mI (2740) main: Task 2 is complete.
+[0m
+[0;32mI (2742) main: Status of GPIO2: 0
+[0m
+[0;32mI (2744) main: Task 3 is complete.
+[0m
+[0;32mI (2746) main: The Processor is Sleeping.
+[0m
+[0;32mI (2760) main: The Processor is Sleeping.
+[0m
+[0;32mI (2770) main: The Processor is Sleeping.
+[0m
+[0;32mI (2780) main: The Processor is Sleeping.
+[0m
+[0;32mI (2790) main: The Processor is Sleeping.
+[0m
+[0;32mI (2800) main: The Processor is Sleeping.
+[0m
+[0;32mI (2810) main: The Processor is Sleeping.
+[0m
+[0;32mI (2820) main: The Processor is Sleeping.
+[0m
+[0;32mI (2830) main: The Processor is Sleeping.
+[0m
+[0;32mI (2840) main: The Processor is Sleeping.
+[0m
+[0;32mI (2850) main: The Processor is Sleeping.
+[0m
+[0;32mI (2860) main: The Processor is Sleeping.
+[0m
+[0;32mI (2870) main: The Processor is Sleeping.
+[0m
+[0;32mI (2880) main: The Processor is Sleeping.
+[0m
+[0;32mI (2890) main: The Processor is Sleeping.
+[0m
+[0;32mI (2900) main: The Processor is Sleeping.
+[0m
+[0;32mI (2910) main: The Processor is Sleeping.
+[0m
+[0;32mI (2920) main: The Processor is Sleeping.
+[0m
+[0;32mI (2930) main: The Processor is Sleeping.
+[0m
+[0;32mI (2940) main: The Processor is Sleeping.
+[0m
+[0;32mI (2950) main: The Processor is Sleeping.
+[0m
+[0;32mI (2960) main: The Processor is Sleeping.
+[0m
+[0;32mI (2970) main: The Processor is Sleeping.
+[0m
+[0;32mI (2980) main: The Processor is Sleeping.
+[0m
+[0;32mI (2990) main: The Processor is Sleeping.
+[0m
+[0;32mI (3000) main: The Processor is Sleeping.
+[0m
+[0;32mI (3010) main: The Processor is Sleeping.
+[0m
+[0;32mI (3020) main: The Processor is Sleeping.
+[0m
+[0;32mI (3030) main: The Processor is Sleeping.
+[0m
+[0;32mI (3040) main: The Processor is Sleeping.
+[0m
+[0;32mI (3050) main: The Processor is Sleeping.
+[0m
+[0;32mI (3060) main: The Processor is Sleeping.
+[0m
+[0;32mI (3070) main: The Processor is Sleeping.
+[0m
+[0;32mI (3080) main: The Processor is Sleeping.
+[0m
+[0;32mI (3090) main: The Processor is Sleeping.
+[0m
+[0;32mI (3100) main: The Processor is Sleeping.
+[0m
+[0;32mI (3110) main: The Processor is Sleeping.
+[0m
+[0;32mI (3120) main: The Processor is Sleeping.
+[0m
+[0;32mI (3130) main: The Processor is Sleeping.
+[0m
+[0;32mI (3140) main: The Processor is Sleeping.
+[0m
+[0;32mI (3150) main: The Processor is Sleeping.
+[0m
+[0;32mI (3160) main: The Processor is Sleeping.
+[0m
+[0;32mI (3170) main: The Processor is Sleeping.
+[0m
+[0;32mI (3180) main: The Processor is Sleeping.
+[0m
+[0;32mI (3190) main: The Processor is Sleeping.
+[0m
+[0;32mI (3200) main: The Processor is Sleeping.
+[0m
+[0;32mI (3210) main: The Processor is Sleeping.
+[0m
+[0;32mI (3220) main: The Processor is Sleeping.
+[0m
+[0;32mI (3230) main: The Processor is Sleeping.
+[0m
+[0;32mI (3240) main: LED is turning on...
+[0m
+[0;32mI (3739) main: Task 1 is complete.
+[0m
+[0;32mI (3741) main: LED is turning off...
+[0m
+[0;32mI (4240) main: Task 2 is complete.
+[0m
+[0;32mI (4242) main: Status of GPIO2: 0
+[0m
+[0;32mI (4244) main: Task 3 is complete.
+[0m
+[0;32mI (4246) main: The Processor is Sleeping.
+[0m
+[0;32mI (4260) main: The Processor is Sleeping.
+[0m
+[0;32mI (4270) main: The Processor is Sleeping.
+[0m
+[0;32mI (4280) main: The Processor is Sleeping.
+[0m
+[0;32mI (4290) main: The Processor is Sleeping.
+[0m
+[0;32mI (4300) main: The Processor is Sleeping.
+[0m
+[0;32mI (4310) main: The Processor is Sleeping.
+[0m
+[0;32mI (4320) main: The Processor is Sleeping.
+[0m
+[0;32mI (4330) main: The Processor is Sleeping.
+[0m
+[0;32mI (4340) main: The Processor is Sleeping.
+[0m
+[0;32mI (4350) main: The Processor is Sleeping.
+[0m
+[0;32mI (4360) main: The Processor is Sleeping.
+[0m
+[0;32mI (4370) main: The Processor is Sleeping.
+[0m
+[0;32mI (4380) main: The Processor is Sleeping.
+[0m
+[0;32mI (4390) main: The Processor is Sleeping.
+[0m
+[0;32mI (4400) main: The Processor is Sleeping.
+[0m
+[0;32mI (4410) main: The Processor is Sleeping.
+[0m
+[0;32mI (4420) main: The Processor is Sleeping.
+[0m
+[0;32mI (4430) main: The Processor is Sleeping.
+[0m
+[0;32mI (4440) main: The Processor is Sleeping.
+[0m
+[0;32mI (4450) main: The Processor is Sleeping.
+[0m
+[0;32mI (4460) main: The Processor is Sleeping.
+[0m
+[0;32mI (4470) main: The Processor is Sleeping.
+[0m
+[0;32mI (4480) main: The Processor is Sleeping.
+[0m
+[0;32mI (4490) main: The Processor is Sleeping.
+[0m
+[0;32mI (4500) main: The Processor is Sleeping.
+[0m
+[0;32mI (4510) main: The Processor is Sleeping.
+[0m
+[0;32mI (4520) main: The Processor is Sleeping.
+[0m
+[0;32mI (4530) main: The Processor is Sleeping.
+[0m
+[0;32mI (4540) main: The Processor is Sleeping.
+[0m
+[0;32mI (4550) main: The Processor is Sleeping.
+[0m
+[0;32mI (4560) main: The Processor is Sleeping.
+[0m
+[0;32mI (4570) main: The Processor is Sleeping.
+[0m
+[0;32mI (4580) main: The Processor is Sleeping.
+[0m
+[0;32mI (4590) main: The Processor is Sleeping.
+[0m
+[0;32mI (4600) main: The Processor is Sleeping.
+[0m
+[0;32mI (4610) main: The Processor is Sleeping.
+[0m
+[0;32mI (4620) main: The Processor is Sleeping.
+[0m
+[0;32mI (4630) main: The Processor is Sleeping.
+[0m
+[0;32mI (4640) main: The Processor is Sleeping.
+[0m
+[0;32mI (4650) main: The Processor is Sleeping.
+[0m
+[0;32mI (4660) main: The Processor is Sleeping.
+[0m
+[0;32mI (4670) main: The Processor is Sleeping.
+[0m
+[0;32mI (4680) main: The Processor is Sleeping.
+[0m
+[0;32mI (4690) main: The Processor is Sleeping.
+[0m
+[0;32mI (4700) main: The Processor is Sleeping.
+[0m
+[0;32mI (4710) main: The Processor is Sleeping.
+[0m
+[0;32mI (4720) main: The Processor is Sleeping.
+[0m
+[0;32mI (4730) main: The Processor is Sleeping.
+[0m
+[0;32mI (4740) main: LED is turning on...
+[0m
+[0;32mI (5239) main: Task 1 is complete.
+[0m
+[0;32mI (5241) main: LED is turning off...
+[0m
+[0;32mI (5740) main: Task 2 is complete.
+[0m
+[0;32mI (5742) main: Status of GPIO2: 0
+[0m
+[0;32mI (5744) main: Task 3 is complete.
+[0m
+[0;32mI (5746) main: The Processor is Sleeping.
+[0m
+[0;32mI (5760) main: The Processor is Sleeping.
+[0m
+[0;32mI (5770) main: The Processor is Sleeping.
+[0m
+[0;32mI (5780) main: The Processor is Sleeping.
+[0m
+[0;32mI (5790) main: The Processor is Sleeping.
+[0m
+[0;32mI (5800) main: The Processor is Sleeping.
+[0m
+[0;32mI (5810) main: The Processor is Sleeping.
+[0m
+[0;32mI (5820) main: The Processor is Sleeping.
+[0m
+[0;32mI (5830) main: The Processor is Sleeping.
+[0m
+[0;32mI (5840) main: The Processor is Sleeping.
+[0m
+[0;32mI (5850) main: The Processor is Sleeping.
+[0m
+[0;32mI (5860) main: The Processor is Sleeping.
+[0m
+[0;32mI (5870) main: The Processor is Sleeping.
+[0m
+[0;32mI (5880) main: The Processor is Sleeping.
+[0m
+[0;32mI (5890) main: The Processor is Sleeping.
+[0m
+[0;32mI (5900) main: The Processor is Sleeping.
+[0m
+[0;32mI (5910) main: The Processor is Sleeping.
+[0m
+[0;32mI (5920) main: The Processor is Sleeping.
+[0m
+[0;32mI (5930) main: The Processor is Sleeping.
+[0m
+[0;32mI (5940) main: The Processor is Sleeping.
+[0m
+[0;32mI (5950) main: The Processor is Sleeping.
+[0m
+[0;32mI (5960) main: The Processor is Sleeping.
+[0m
+[0;32mI (5970) main: The Processor is Sleeping.
+[0m
+[0;32mI (5980) main: The Processor is Sleeping.
+[0m
+[0;32mI (5990) main: The Processor is Sleeping.
+[0m
+[0;32mI (6000) main: The Processor is Sleeping.
+[0m
+[0;32mI (6010) main: The Processor is Sleeping.
+[0m
+[0;32mI (6020) main: The Processor is Sleeping.
+[0m
+[0;32mI (6030) main: The Processor is Sleeping.
+[0m
+[0;32mI (6040) main: The Processor is Sleeping.
+[0m
+[0;32mI (6050) main: The Processor is Sleeping.
+[0m
+[0;32mI (6060) main: The Processor is Sleeping.
+[0m
+[0;32mI (6070) main: The Processor is Sleeping.
+[0m
+[0;32mI (6080) main: The Processor is Sleeping.
+[0m
+[0;32mI (6090) main: The Processor is Sleeping.
+[0m
+[0;32mI (6100) main: The Processor is Sleeping.
+[0m
+[0;32mI (6110) main: The Processor is Sleeping.
+[0m
+[0;32mI (6120) main: The Processor is Sleeping.
+[0m
+[0;32mI (6130) main: The Processor is Sleeping.
+[0m
+[0;32mI (6140) main: The Processor is Sleeping.
+[0m
+[0;32mI (6150) main: The Processor is Sleeping.
+[0m
+[0;32mI (6160) main: The Processor is Sleeping.
+[0m
+[0;32mI (6170) main: The Processor is Sleeping.
+[0m
+[0;32mI (6180) main: The Processor is Sleeping.
+[0m
+[0;32mI (6190) main: The Processor is Sleeping.
+[0m
+[0;32mI (6200) main: The Processor is Sleeping.
+[0m
+[0;32mI (6210) main: The Processor is Sleeping.
+[0m
+[0;32mI (6220) main: The Processor is Sleeping.
+[0m
+[0;32mI (6230) main: The Processor is Sleeping.
+[0m
+[0;32mI (6240) main: LED is turning on...
+[0m
+[0;32mI (6739) main: Task 1 is complete.
+[0m
+[0;32mI (6741) main: LED is turning off...
+[0m
+[0;32mI (7240) main: Task 2 is complete.
+[0m
+[0;32mI (7242) main: Status of GPIO2: 0
+[0m
+[0;32mI (7244) main: Task 3 is complete.
+[0m
+[0;32mI (7246) main: The Processor is Sleeping.
+[0m
+[0;32mI (7260) main: The Processor is Sleeping.
+[0m
+[0;32mI (7270) main: The Processor is Sleeping.
+[0m
+[0;32mI (7280) main: The Processor is Sleeping.
+[0m
+[0;32mI (7290) main: The Processor is Sleeping.
+[0m
+[0;32mI (7300) main: The Processor is Sleeping.
+[0m
+[0;32mI (7310) main: The Processor is Sleeping.
+[0m
+[0;32mI (7320) main: The Processor is Sleeping.
+[0m
+[0;32mI (7330) main: The Processor is Sleeping.
+[0m
+[0;32mI (7340) main: The Processor is Sleeping.
+[0m
+[0;32mI (7350) main: The Processor is Sleeping.
+[0m
+[0;32mI (7360) main: The Processor is Sleeping.
+[0m
+[0;32mI (7370) main: The Processor is Sleeping.
+[0m
+[0;32mI (7380) main: The Processor is Sleeping.
+[0m
+[0;32mI (7390) main: The Processor is Sleeping.
+[0m
+[0;32mI (7400) main: The Processor is Sleeping.
+[0m
+[0;32mI (7410) main: The Processor is Sleeping.
+[0m
+[0;32mI (7420) main: The Processor is Sleeping.
+[0m
+[0;32mI (7430) main: The Processor is Sleeping.
+[0m
+[0;32mI (7440) main: The Processor is Sleeping.
+[0m
+[0;32mI (7450) main: The Processor is Sleeping.
+[0m
+[0;32mI (7460) main: The Processor is Sleeping.
+[0m
+[0;32mI (7470) main: The Processor is Sleeping.
+[0m
+[0;32mI (7480) main: The Processor is Sleeping.
+[0m
+[0;32mI (7490) main: The Processor is Sleeping.
+[0m
+[0;32mI (7500) main: The Processor is Sleeping.
+[0m
+[0;32mI (7510) main: The Processor is Sleeping.
+[0m
+[0;32mI (7520) main: The Processor is Sleeping.
+[0m
+[0;32mI (7530) main: The Processor is Sleeping.
+[0m
+[0;32mI (7540) main: The Processor is Sleeping.
+[0m
+[0;32mI (7550) main: The Processor is Sleeping.
+[0m
+[0;32mI (7560) main: The Processor is Sleeping.
+[0m
+[0;32mI (7570) main: The Processor is Sleeping.
+[0m
+[0;32mI (7580) main: The Processor is Sleeping.
+[0m
+[0;32mI (7590) main: The Processor is Sleeping.
+[0m
+[0;32mI (7600) main: The Processor is Sleeping.
+[0m
+[0;32mI (7610) main: The Processor is Sleeping.
+[0m
+[0;32mI (7620) main: The Processor is Sleeping.
+[0m
+[0;32mI (7630) main: The Processor is Sleeping.
+[0m
+[0;32mI (7640) main: The Processor is Sleeping.
+[0m
+[0;32mI (7650) main: The Processor is Sleeping.
+[0m
+[0;32mI (7660) main: The Processor is Sleeping.
+[0m
+[0;32mI (7670) main: The Processor is Sleeping.
+[0m
+[0;32mI (7680) main: The Processor is Sleeping.
+[0m
+[0;32mI (7690) main: The Processor is Sleeping.
+[0m
+[0;32mI (7700) main: The Processor is Sleeping.
+[0m
+[0;32mI (7710) main: The Processor is Sleeping.
+[0m
+[0;32mI (7720) main: The Processor is Sleeping.
+[0m
+[0;32mI (7730) main: The Processor is Sleeping.
+[0m
+[0;32mI (7740) main: LED is turning on...
+[0m
+[0;32mI (8239) main: Task 1 is complete.
+[0m
+[0;32mI (8241) main: LED is turning off...
+[0m
+[0;32mI (8740) main: Task 2 is complete.
+[0m
+[0;32mI (8742) main: Status of GPIO2: 0
+[0m
+[0;32mI (8744) main: Task 3 is complete.
+[0m
+[0;32mI (8746) main: The Processor is Sleeping.
+[0m
+[0;32mI (8760) main: The Processor is Sleeping.
+[0m
+[0;32mI (8770) main: The Processor is Sleeping.
+[0m
+[0;32mI (8780) main: The Processor is Sleeping.
+[0m
+[0;32mI (8790) main: The Processor is Sleeping.
+[0m
+[0;32mI (8800) main: The Processor is Sleeping.
+[0m
+[0;32mI (8810) main: The Processor is Sleeping.
+[0m
+[0;32mI (8820) main: The Processor is Sleeping.
+[0m
+[0;32mI (8830) main: The Processor is Sleeping.
+[0m
+[0;32mI (8840) main: The Processor is Sleeping.
+[0m
+[0;32mI (8850) main: The Processor is Sleeping.
+[0m
+[0;32mI (8860) main: The Processor is Sleeping.
+[0m
+[0;32mI (8870) main: The Processor is Sleeping.
+[0m
+[0;32mI (8880) main: The Processor is Sleeping.
+[0m
+[0;32mI (8890) main: The Processor is Sleeping.
+[0m
+[0;32mI (8900) main: The Processor is Sleeping.
+[0m
+[0;32mI (8910) main: The Processor is Sleeping.
+[0m
+[0;32mI (8920) main: The Processor is Sleeping.
+[0m
+[0;32mI (8930) main: The Processor is Sleeping.
+[0m
+[0;32mI (8940) main: The Processor is Sleeping.
+[0m
+[0;32mI (8950) main: The Processor is Sleeping.
+[0m
+[0;32mI (8960) main: The Processor is Sleeping.
+[0m
+[0;32mI (8970) main: The Processor is Sleeping.
+[0m
+[0;32mI (8980) main: The Processor is Sleeping.
+[0m
+[0;32mI (8990) main: The Processor is Sleeping.
+[0m
+[0;32mI (9000) main: The Processor is Sleeping.
+[0m
+[0;32mI (9010) main: The Processor is Sleeping.
+[0m
+[0;32mI (9020) main: The Processor is Sleeping.
+[0m
+[0;32mI (9030) main: The Processor is Sleeping.
+[0m
+[0;32mI (9040) main: The Processor is Sleeping.
+[0m
+[0;32mI (9050) main: The Processor is Sleeping.
+[0m
+[0;32mI (9060) main: The Processor is Sleeping.
+[0m
+[0;32mI (9070) main: The Processor is Sleeping.
+[0m
+[0;32mI (9080) main: The Processor is Sleeping.
+[0m
+[0;32mI (9090) main: The Processor is Sleeping.
+[0m
+[0;32mI (9100) main: The Processor is Sleeping.
+[0m
+[0;32mI (9110) main: The Processor is Sleeping.
+[0m
+[0;32mI (9120) main: The Processor is Sleeping.
+[0m
+[0;32mI (9130) main: The Processor is Sleeping.
+[0m
+[0;32mI (9140) main: The Processor is Sleeping.
+[0m
+[0;32mI (9150) main: The Processor is Sleeping.
+[0m
+[0;32mI (9160) main: The Processor is Sleeping.
+[0m
+[0;32mI (9170) main: The Processor is Sleeping.
+[0m
+[0;32mI (9180) main: The Processor is Sleeping.
+[0m
+[0;32mI (9190) main: The Processor is Sleeping.
+[0m
+[0;32mI (9200) main: The Processor is Sleeping.
+[0m
+[0;32mI (9210) main: The Processor is Sleeping.
+[0m
+[0;32mI (9220) main: The Processor is Sleeping.
+[0m
+[0;32mI (9230) main: The Processor is Sleeping.
+[0m
+[0;32mI (9240) main: LED is turning on...
+[0m
+[0;32mI (9739) main: Task 1 is complete.
+[0m
+[0;32mI (9741) main: LED is turning off...
+[0m
+[0;32mI (10241) main: Task 2 is complete.
+[0m
+[0;32mI (10243) main: Status of GPIO2: 0
+[0m
+[0;32mI (10245) main: Task 3 is complete.
+[0m
+[0;32mI (10247) main: The Processor is Sleeping.
+[0m
+[0;32mI (10261) main: The Processor is Sleeping.
+[0m
+[0;32mI (10271) main: The Processor is Sleeping.
+[0m
+[0;32mI (10281) main: The Processor is Sleeping.
+[0m
+[0;32mI (10291) main: The Processor is Sleeping.
+[0m
+[0;32mI (10301) main: The Processor is Sleeping.
+[0m
+[0;32mI (10311) main: The Processor is Sleeping.
+[0m
+[0;32mI (10321) main: The Processor is Sleeping.
+[0m
+[0;32mI (10331) main: The Processor is Sleeping.
+[0m
+[0;32mI (10341) main: The Processor is Sleeping.
+[0m
+[0;32mI (10351) main: The Processor is Sleeping.
+[0m
+[0;32mI (10361) main: The Processor is Sleeping.
+[0m
+[0;32mI (10371) main: The Processor is Sleeping.
+[0m
+[0;32mI (10381) main: The Processor is Sleeping.
+[0m
+[0;32mI (10391) main: The Processor is Sleeping.
+[0m
+[0;32mI (10401) main: The Processor is Sleeping.
+[0m
+[0;32mI (10411) main: The Processor is Sleeping.
+[0m
+[0;32mI (10421) main: The Processor is Sleeping.
+[0m
+[0;32mI (10431) main: The Processor is Sleeping.
+[0m
+[0;32mI (10441) main: The Processor is Sleeping.
+[0m
+[0;32mI (10451) main: The Processor is Sleeping.
+[0m
+[0;32mI (10461) main: The Processor is Sleeping.
+[0m
+[0;32mI (10471) main: The Processor is Sleeping.
+[0m
+[0;32mI (10481) main: The Processor is Sleeping.
+[0m
+[0;32mI (10491) main: The Processor is Sleeping.
+[0m
+[0;32mI (10501) main: The Processor is Sleeping.
+[0m
+[0;32mI (10511) main: The Processor is Sleeping.
+[0m
+[0;32mI (10521) main: The Processor is Sleeping.
+[0m
+[0;32mI (10531) main: The Processor is Sleeping.
+[0m
+[0;32mI (10541) main: The Processor is Sleeping.
+[0m
+[0;32mI (10551) main: The Processor is Sleeping.
+[0m
+[0;32mI (10561) main: The Processor is Sleeping.
+[0m
+[0;32mI (10571) main: The Processor is Sleeping.
+[0m
+[0;32mI (10581) main: The Processor is Sleeping.
+[0m
+[0;32mI (10591) main: The Processor is Sleeping.
+[0m
+[0;32mI (10601) main: The Processor is Sleeping.
+[0m
+[0;32mI (10611) main: The Processor is Sleeping.
+[0m
+[0;32mI (10621) main: The Processor is Sleeping.
+[0m
+[0;32mI (10631) main: The Processor is Sleeping.
+[0m
+[0;32mI (10641) main: The Processor is Sleeping.
+[0m
+[0;32mI (10651) main: The Processor is Sleeping.
+[0m
+[0;32mI (10661) main: The Processor is Sleeping.
+[0m
+[0;32mI (10671) main: The Processor is Sleeping.
+[0m
+[0;32mI (10681) main: The Processor is Sleeping.
+[0m
+[0;32mI (10691) main: The Processor is Sleeping.
+[0m
+[0;32mI (10701) main: The Processor is Sleeping.
+[0m
+[0;32mI (10711) main: The Processor is Sleeping.
+[0m
+[0;32mI (10721) main: The Processor is Sleeping.
+[0m
+[0;32mI (10731) main: The Processor is Sleeping.
+[0m
+[0;32mI (10741) main: LED is turning on...
+[0m
+[0;32mI (11240) main: Task 1 is complete.
+[0m
+[0;32mI (11242) main: LED is turning off...
+[0m
+[0;32mI (11741) main: Task 2 is complete.
+[0m
+[0;32mI (11743) main: Status of GPIO2: 0
+[0m
+[0;32mI (11745) main: Task 3 is complete.
+[0m
+[0;32mI (11747) main: The Processor is Sleeping.
+[0m
+[0;32mI (11761) main: The Processor is Sleeping.
+[0m
+[0;32mI (11771) main: The Processor is Sleeping.
+[0m
+[0;32mI (11781) main: The Processor is Sleeping.
+[0m
+[0;32mI (11791) main: The Processor is Sleeping.
+[0m
+[0;32mI (11801) main: The Processor is Sleeping.
+[0m
+[0;32mI (11811) main: The Processor is Sleeping.
+[0m
+[0;32mI (11821) main: The Processor is Sleeping.
+[0m
+[0;32mI (11831) main: The Processor is Sleeping.
+[0m
+[0;32mI (11841) main: The Processor is Sleeping.
+[0m
+[0;32mI (11851) main: The Processor is Sleeping.
+[0m
+[0;32mI (11861) main: The Processor is Sleeping.
+[0m
+[0;32mI (11871) main: The Processor is Sleeping.
+[0m
+[0;32mI (11881) main: The Processor is Sleeping.
+[0m
+[0;32mI (11891) main: The Processor is Sleeping.
+[0m
+[0;32mI (11901) main: The Processor is Sleeping.
+[0m
+[0;32mI (11911) main: The Processor is Sleeping.
+[0m
+[0;32mI (11921) main: The Processor is Sleeping.
+[0m
+[0;32mI (11931) main: The Processor is Sleeping.
+[0m
+[0;32mI (11941) main: The Processor is Sleeping.
+[0m
+[0;32mI (11951) main: The Processor is Sleeping.
+[0m
+[0;32mI (11961) main: The Processor is Sleeping.
+[0m
+[0;32mI (11971) main: The Processor is Sleeping.
+[0m
+[0;32mI (11981) main: The Processor is Sleeping.
+[0m
+[0;32mI (11991) main: The Processor is Sleeping.
+[0m
+[0;32mI (12001) main: The Processor is Sleeping.
+[0m
+[0;32mI (12011) main: The Processor is Sleeping.
+[0m
+[0;32mI (12021) main: The Processor is Sleeping.
+[0m
+[0;32mI (12031) main: The Processor is Sleeping.
+[0m
+[0;32mI (12041) main: The Processor is Sleeping.
+[0m
+[0;32mI (12051) main: The Processor is Sleeping.
+[0m
+[0;32mI (12061) main: The Processor is Sleeping.
+[0m
+[0;32mI (12071) main: The Processor is Sleeping.
+[0m
+[0;32mI (12081) main: The Processor is Sleeping.
+[0m
+[0;32mI (12091) main: The Processor is Sleeping.
+[0m
+[0;32mI (12101) main: The Processor is Sleeping.
+[0m
+[0;32mI (12111) main: The Processor is Sleeping.
+[0m
+[0;32mI (12121) main: The Processor is Sleeping.
+[0m
+[0;32mI (12131) main: The Processor is Sleeping.
+[0m
+[0;32mI (12141) main: The Processor is Sleeping.
+[0m
+[0;32mI (12151) main: The Processor is Sleeping.
+[0m
+[0;32mI (12161) main: The Processor is Sleeping.
+[0m
+[0;32mI (12171) main: The Processor is Sleeping.
+[0m
+[0;32mI (12181) main: The Processor is Sleeping.
+[0m
+[0;32mI (12191) main: The Processor is Sleeping.
+[0m
+[0;32mI (12201) main: The Processor is Sleeping.
+[0m
+[0;32mI (12211) main: The Processor is Sleeping.
+[0m
+[0;32mI (12221) main: The Processor is Sleeping.
+[0m
+[0;32mI (12231) main: The Processor is Sleeping.
+[0m
+[0;32mI (12241) main: LED is turning on...
+[0m
+[0;32mI (12740) main: Task 1 is complete.
+[0m
+[0;32mI (12742) main: LED is turning off...
+[0m
+[0;32mI (13241) main: Task 2 is complete.
+[0m
+[0;32mI (13243) main: Status of GPIO2: 0
+[0m
+[0;32mI (13245) main: Task 3 is complete.
+[0m
+[0;32mI (13247) main: The Processor is Sleeping.
+[0m
+[0;32mI (13261) main: The Processor is Sleeping.
+[0m
+[0;32mI (13271) main: The Processor is Sleeping.
+[0m
+[0;32mI (13281) main: The Processor is Sleeping.
+[0m
+[0;32mI (13291) main: The Processor is Sleeping.
+[0m
+[0;32mI (13301) main: The Processor is Sleeping.
+[0m
+[0;32mI (13311) main: The Processor is Sleeping.
+[0m
+[0;32mI (13321) main: The Processor is Sleeping.
+[0m
+[0;32mI (13331) main: The Processor is Sleeping.
+[0m
+[0;32mI (13341) main: The Processor is Sleeping.
+[0m
+[0;32mI (13351) main: The Processor is Sleeping.
+[0m
+[0;32mI (13361) main: The Processor is Sleeping.
+[0m
+[0;32mI (13371) main: The Processor is Sleeping.
+[0m
+[0;32mI (13381) main: The Processor is Sleeping.
+[0m
+[0;32mI (13391) main: The Processor is Sleeping.
+[0m
+[0;32mI (13401) main: The Processor is Sleeping.
+[0m
+[0;32mI (13411) main: The Processor is Sleeping.
+[0m
+[0;32mI (13421) main: The Processor is Sleeping.
+[0m
+[0;32mI (13431) main: The Processor is Sleeping.
+[0m
+[0;32mI (13441) main: The Processor is Sleeping.
+[0m
+[0;32mI (13451) main: The Processor is Sleeping.
+[0m
+[0;32mI (13461) main: The Processor is Sleeping.
+[0m
+[0;32mI (13471) main: The Processor is Sleeping.
+[0m
+[0;32mI (13481) main: The Processor is Sleeping.
+[0m
+[0;32mI (13491) main: The Processor is Sleeping.
+[0m
+[0;32mI (13501) main: The Processor is Sleeping.
+[0m
+[0;32mI (13511) main: The Processor is Sleeping.
+[0m
+[0;32mI (13521) main: The Processor is Sleeping.
+[0m
+[0;32mI (13531) main: The Processor is Sleeping.
+[0m
+[0;32mI (13541) main: The Processor is Sleeping.
+[0m
+[0;32mI (13551) main: The Processor is Sleeping.
+[0m
+[0;32mI (13561) main: The Processor is Sleeping.
+[0m
+[0;32mI (13571) main: The Processor is Sleeping.
+[0m
+[0;32mI (13581) main: The Processor is Sleeping.
+[0m
+[0;32mI (13591) main: The Processor is Sleeping.
+[0m
+[0;32mI (13601) main: The Processor is Sleeping.
+[0m
+[0;32mI (13611) main: The Processor is Sleeping.
+[0m
+[0;32mI (13621) main: The Processor is Sleeping.
+[0m
+[0;32mI (13631) main: The Processor is Sleeping.
+[0m
+[0;32mI (13641) main: The Processor is Sleeping.
+[0m
+[0;32mI (13651) main: The Processor is Sleeping.
+[0m
+[0;32mI (13661) main: The Processor is Sleeping.
+[0m
+[0;32mI (13671) main: The Processor is Sleeping.
+[0m
+[0;32mI (13681) main: The Processor is Sleeping.
+[0m
+[0;32mI (13691) main: The Processor is Sleeping.
+[0m
+[0;32mI (13701) main: The Processor is Sleeping.
+[0m
+[0;32mI (13711) main: The Processor is Sleeping.
+[0m
+[0;32mI (13721) main: The Processor is Sleeping.
+[0m
+[0;32mI (13731) main: The Processor is Sleeping.
+[0m
+[0;32mI (13741) main: LED is turning on...
+[0m
+[0;32mI (14240) main: Task 1 is complete.
+[0m
+[0;32mI (14242) main: LED is turning off...
+[0m
+[0;32mI (14741) main: Task 2 is complete.
+[0m
+[0;32mI (14743) main: Status of GPIO2: 0
+[0m
+[0;32mI (14745) main: Task 3 is complete.
+[0m
+[0;32mI (14747) main: The Processor is Sleeping.
+[0m
+[0;32mI (14761) main: The Processor is Sleeping.
+[0m
+[0;32mI (14771) main: The Processor is Sleeping.
+[0m
+[0;32mI (14781) main: The Processor is Sleeping.
+[0m
+[0;32mI (14791) main: The Processor is Sleeping.
+[0m
+[0;32mI (14801) main: The Processor is Sleeping.
+[0m
+[0;32mI (14811) main: The Processor is Sleeping.
+[0m
+[0;32mI (14821) main: The Processor is Sleeping.
+[0m
+[0;32mI (14831) main: The Processor is Sleeping.
+[0m
+[0;32mI (14841) main: The Processor is Sleeping.
+[0m
+[0;32mI (14851) main: The Processor is Sleeping.
+[0m
+[0;32mI (14861) main: The Processor is Sleeping.
+[0m
+[0;32mI (14871) main: The Processor is Sleeping.
+[0m
+[0;32mI (14881) main: The Processor is Sleeping.
+[0m
+[0;32mI (14891) main: The Processor is Sleeping.
+[0m
+[0;32mI (14901) main: The Processor is Sleeping.
+[0m
+[0;32mI (14911) main: The Processor is Sleeping.
+[0m
+[0;32mI (14921) main: The Processor is Sleeping.
+[0m
+[0;32mI (14931) main: The Processor is Sleeping.
+[0m
+[0;32mI (14941) main: The Processor is Sleeping.
+[0m
+[0;32mI (14951) main: The Processor is Sleeping.
+[0m
+[0;32mI (14961) main: The Processor is Sleeping.
+[0m
+[0;32mI (14971) main: The Processor is Sleeping.
+[0m
+[0;32mI (14981) main: The Processor is Sleeping.
+[0m
+[0;32mI (14991) main: The Processor is Sleeping.
+[0m
+[0;32mI (15001) main: The Processor is Sleeping.
+[0m
+[0;32mI (15011) main: The Processor is Sleeping.
+[0m
+[0;32mI (15021) main: The Processor is Sleeping.
+[0m
+[0;32mI (15031) main: The Processor is Sleeping.
+[0m
+[0;32mI (15041) main: The Processor is Sleeping.
+[0m
+[0;32mI (15051) main: The Processor is Sleeping.
+[0m
+[0;32mI (15061) main: The Processor is Sleeping.
+[0m
+[0;32mI (15071) main: The Processor is Sleeping.
+[0m
+[0;32mI (15081) main: The Processor is Sleeping.
+[0m
+[0;32mI (15091) main: The Processor is Sleeping.
+[0m
+[0;32mI (15101) main: The Processor is Sleeping.
+[0m
+[0;32mI (15111) main: The Processor is Sleeping.
+[0m
+[0;32mI (15121) main: The Processor is Sleeping.
+[0m
+[0;32mI (15131) main: The Processor is Sleeping.
+[0m
+[0;32mI (15141) main: The Processor is Sleeping.
+[0m
+[0;32mI (15151) main: The Processor is Sleeping.
+[0m
+[0;32mI (15161) main: The Processor is Sleeping.
+[0m
+[0;32mI (15171) main: The Processor is Sleeping.
+[0m
+[0;32mI (15181) main: The Processor is Sleeping.
+[0m
+[0;32mI (15191) main: The Processor is Sleeping.
+[0m
+[0;32mI (15201) main: The Processor is Sleeping.
+[0m
+[0;32mI (15211) main: The Processor is Sleeping.
+[0m
+[0;32mI (15221) main: The Processor is Sleeping.
+[0m
+[0;32mI (15231) main: The Processor is Sleeping.
+[0m
+[0;32mI (15241) main: LED is turning on...
+[0m
+[0;32mI (15740) main: Task 1 is complete.
+[0m
+[0;32mI (15742) main: LED is turning off...
+[0m
+[0;32mI (16241) main: Task 2 is complete.
+[0m
+[0;32mI (16243) main: Status of GPIO2: 0
+[0m
+[0;32mI (16245) main: Task 3 is complete.
+[0m
+[0;32mI (16247) main: The Processor is Sleeping.
+[0m
+[0;32mI (16261) main: The Processor is Sleeping.
+[0m
+[0;32mI (16271) main: The Processor is Sleeping.
+[0m
+[0;32mI (16281) main: The Processor is Sleeping.
+[0m
+[0;32mI (16291) main: The Processor is Sleeping.
+[0m
+[0;32mI (16301) main: The Processor is Sleeping.
+[0m
+[0;32mI (16311) main: The Processor is Sleeping.
+[0m
+[0;32mI (16321) main: The Processor is Sleeping.
+[0m
+[0;32mI (16331) main: The Processor is Sleeping.
+[0m
+[0;32mI (16341) main: The Processor is Sleeping.
+[0m
+[0;32mI (16351) main: The Processor is Sleeping.
+[0m
+[0;32mI (16361) main: The Processor is Sleeping.
+[0m
+[0;32mI (16371) main: The Processor is Sleeping.
+[0m
+[0;32mI (16381) main: The Processor is Sleeping.
+[0m
+[0;32mI (16391) main: The Processor is Sleeping.
+[0m
+[0;32mI (16401) main: The Processor is Sleeping.
+[0m
+[0;32mI (16411) main: The Processor is Sleeping.
+[0m
+[0;32mI (16421) main: The Processor is Sleeping.
+[0m
+[0;32mI (16431) main: The Processor is Sleeping.
+[0m
+[0;32mI (16441) main: The Processor is Sleeping.
+[0m
+[0;32mI (16451) main: The Processor is Sleeping.
+[0m
+[0;32mI (16461) main: The Processor is Sleeping.
+[0m
+[0;32mI (16471) main: The Processor is Sleeping.
+[0m
+[0;32mI (16481) main: The Processor is Sleeping.
+[0m
+[0;32mI (16491) main: The Processor is Sleeping.
+[0m
+[0;32mI (16501) main: The Processor is Sleeping.
+[0m
+[0;32mI (16511) main: The Processor is Sleeping.
+[0m
+[0;32mI (16521) main: The Processor is Sleeping.
+[0m
+[0;32mI (16531) main: The Processor is Sleeping.
+[0m
+[0;32mI (16541) main: The Processor is Sleeping.
+[0m
+[0;32mI (16551) main: The Processor is Sleeping.
+[0m
+[0;32mI (16561) main: The Processor is Sleeping.
+[0m
+[0;32mI (16571) main: The Processor is Sleeping.
+[0m
+[0;32mI (16581) main: The Processor is Sleeping.
+[0m
+[0;32mI (16591) main: The Processor is Sleeping.
+[0m
+[0;32mI (16601) main: The Processor is Sleeping.
+[0m
+[0;32mI (16611) main: The Processor is Sleeping.
+[0m
+[0;32mI (16621) main: The Processor is Sleeping.
+[0m
+[0;32mI (16631) main: The Processor is Sleeping.
+[0m
+[0;32mI (16641) main: The Processor is Sleeping.
+[0m
+[0;32mI (16651) main: The Processor is Sleeping.
+[0m
+[0;32mI (16661) main: The Processor is Sleeping.
+[0m
+[0;32mI (16671) main: The Processor is Sleeping.
+[0m
+[0;32mI (16681) main: The Processor is Sleeping.
+[0m
+[0;32mI (16691) main: The Processor is Sleeping.
+[0m
+[0;32mI (16701) main: The Processor is Sleeping.
+[0m
+[0;32mI (16711) main: The Processor is Sleeping.
+[0m
+[0;32mI (16721) main: The Processor is Sleeping.
+[0m
+[0;32mI (16731) main: The Processor is Sleeping.
+[0m
+[0;32mI (16741) main: LED is turning on...
+[0m
+[0;32mI (17240) main: Task 1 is complete.
+[0m
+[0;32mI (17242) main: LED is turning off...
+[0m
+[0;32mI (17741) main: Task 2 is complete.
+[0m
+[0;32mI (17743) main: Status of GPIO2: 0
+[0m
+[0;32mI (17745) main: Task 3 is complete.
+[0m
+[0;32mI (17747) main: The Processor is Sleeping.
+[0m
+[0;32mI (17761) main: The Processor is Sleeping.
+[0m
+[0;32mI (17771) main: The Processor is Sleeping.
+[0m
+[0;32mI (17781) main: The Processor is Sleeping.
+[0m
+[0;32mI (17791) main: The Processor is Sleeping.
+[0m
+[0;32mI (17801) main: The Processor is Sleeping.
+[0m
+[0;32mI (17811) main: The Processor is Sleeping.
+[0m
+[0;32mI (17821) main: The Processor is Sleeping.
+[0m
+[0;32mI (17831) main: The Processor is Sleeping.
+[0m
+[0;32mI (17841) main: The Processor is Sleeping.
+[0m
+[0;32mI (17851) main: The Processor is Sleeping.
+[0m
+[0;32mI (17861) main: The Processor is Sleeping.
+[0m
+[0;32mI (17871) main: The Processor is Sleeping.
+[0m
+[0;32mI (17881) main: The Processor is Sleeping.
+[0m
+[0;32mI (17891) main: The Processor is Sleeping.
+[0m
+[0;32mI (17901) main: The Processor is Sleeping.
+[0m
+[0;32mI (17911) main: The Processor is Sleeping.
+[0m
+[0;32mI (17921) main: The Processor is Sleeping.
+[0m
+[0;32mI (17931) main: The Processor is Sleeping.
+[0m
+[0;32mI (17941) main: The Processor is Sleeping.
+[0m
+[0;32mI (17951) main: The Processor is Sleeping.
+[0m
+[0;32mI (17961) main: The Processor is Sleeping.
+[0m
+[0;32mI (17971) main: The Processor is Sleeping.
+[0m
+[0;32mI (17981) main: The Processor is Sleeping.
+[0m
+[0;32mI (17991) main: The Processor is Sleeping.
+[0m
+[0;32mI (18001) main: The Processor is Sleeping.
+[0m
+[0;32mI (18011) main: The Processor is Sleeping.
+[0m
+[0;32mI (18021) main: The Processor is Sleeping.
+[0m
+[0;32mI (18031) main: The Processor is Sleeping.
+[0m
+[0;32mI (18041) main: The Processor is Sleeping.
+[0m
+[0;32mI (18051) main: The Processor is Sleeping.
+[0m
+[0;32mI (18061) main: The Processor is Sleeping.
+[0m
+[0;32mI (18071) main: The Processor is Sleeping.
+[0m
+[0;32mI (18081) main: The Processor is Sleeping.
+[0m
+[0;32mI (18091) main: The Processor is Sleeping.
+[0m
+[0;32mI (18101) main: The Processor is Sleeping.
+[0m
+[0;32mI (18111) main: The Processor is Sleeping.
+[0m
+[0;32mI (18121) main: The Processor is Sleeping.
+[0m
+[0;32mI (18131) main: The Processor is Sleeping.
+[0m
+[0;32mI (18141) main: The Processor is Sleeping.
+[0m
+[0;32mI (18151) main: The Processor is Sleeping.
+[0m
+[0;32mI (18161) main: The Processor is Sleeping.
+[0m
+[0;32mI (18171) main: The Processor is Sleeping.
+[0m
+[0;32mI (18181) main: The Processor is Sleeping.
+[0m
+[0;32mI (18191) main: The Processor is Sleeping.
+[0m
+[0;32mI (18201) main: The Processor is Sleeping.
+[0m
+[0;32mI (18211) main: The Processor is Sleeping.
+[0m
+[0;32mI (18221) main: The Processor is Sleeping.
+[0m
+[0;32mI (18231) main: The Processor is Sleeping.
+[0m
+[0;32mI (18241) main: LED is turning on...
+[0m
+[0;32mI (18740) main: Task 1 is complete.
+[0m
+[0;32mI (18742) main: LED is turning off...
+[0m
+[0;32mI (19241) main: Task 2 is complete.
+[0m
+[0;32mI (19243) main: Status of GPIO2: 0
+[0m
+[0;32mI (19245) main: Task 3 is complete.
+[0m
+[0;32mI (19247) main: The Processor is Sleeping.
+[0m
+[0;32mI (19261) main: The Processor is Sleeping.
+[0m
+[0;32mI (19271) main: The Processor is Sleeping.
+[0m
+[0;32mI (19281) main: The Processor is Sleeping.
+[0m
+[0;32mI (19291) main: The Processor is Sleeping.
+[0m
+[0;32mI (19301) main: The Processor is Sleeping.
+[0m
+[0;32mI (19311) main: The Processor is Sleeping.
+[0m
+[0;32mI (19321) main: The Processor is Sleeping.
+[0m
+[0;32mI (19331) main: The Processor is Sleeping.
+[0m
+[0;32mI (19341) main: The Processor is Sleeping.
+[0m
+[0;32mI (19351) main: The Processor is Sleeping.
+[0m
+[0;32mI (19361) main: The Processor is Sleeping.
+[0m
+[0;32mI (19371) main: The Processor is Sleeping.
+[0m
+[0;32mI (19381) main: The Processor is Sleeping.
+[0m
+[0;32mI (19391) main: The Processor is Sleeping.
+[0m
+[0;32mI (19401) main: The Processor is Sleeping.
+[0m
+[0;32mI (19411) main: The Processor is Sleeping.
+[0m
+[0;32mI (19421) main: The Processor is Sleeping.
+[0m
+[0;32mI (19431) main: The Processor is Sleeping.
+[0m
+[0;32mI (19441) main: The Processor is Sleeping.
+[0m
+[0;32mI (19451) main: The Processor is Sleeping.
+[0m
+[0;32mI (19461) main: The Processor is Sleeping.
+[0m
+[0;32mI (19471) main: The Processor is Sleeping.
+[0m
+[0;32mI (19481) main: The Processor is Sleeping.
+[0m
+[0;32mI (19491) main: The Processor is Sleeping.
+[0m
+[0;32mI (19501) main: The Processor is Sleeping.
+[0m
+[0;32mI (19511) main: The Processor is Sleeping.
+[0m
+[0;32mI (19521) main: The Processor is Sleeping.
+[0m
+[0;32mI (19531) main: The Processor is Sleeping.
+[0m
+[0;32mI (19541) main: The Processor is Sleeping.
+[0m
+[0;32mI (19551) main: The Processor is Sleeping.
+[0m
+[0;32mI (19561) main: The Processor is Sleeping.
+[0m
+[0;32mI (19571) main: The Processor is Sleeping.
+[0m
+[0;32mI (19581) main: The Processor is Sleeping.
+[0m
+[0;32mI (19591) main: The Processor is Sleeping.
+[0m
+[0;32mI (19601) main: The Processor is Sleeping.
+[0m
+[0;32mI (19611) main: The Processor is Sleeping.
+[0m
+[0;32mI (19621) main: The Processor is Sleeping.
+[0m
+[0;32mI (19631) main: The Processor is Sleeping.
+[0m
+[0;32mI (19641) main: The Processor is Sleeping.
+[0m
+[0;32mI (19651) main: The Processor is Sleeping.
+[0m
+[0;32mI (19661) main: The Processor is Sleeping.
+[0m
+[0;32mI (19671) main: The Processor is Sleeping.
+[0m
+[0;32mI (19681) main: The Processor is Sleeping.
+[0m
+[0;32mI (19691) main: The Processor is Sleeping.
+[0m
+[0;32mI (19701) main: The Processor is Sleeping.
+[0m
+[0;32mI (19711) main: The Processor is Sleeping.
+[0m
+[0;32mI (19721) main: The Processor is Sleeping.
+[0m
+[0;32mI (19731) main: The Processor is Sleeping.
+[0m
+[0;32mI (19741) main: LED is turning on...
+[0m
+[0;32mI (20241) main: Task 1 is complete.
+[0m
+[0;32mI (20243) main: LED is turning off...
+[0m
+[0;32mI (20742) main: Task 2 is complete.
+[0m
+[0;32mI (20744) main: Status of GPIO2: 0
+[0m
+[0;32mI (20746) main: Task 3 is complete.
+[0m
+[0;32mI (20748) main: The Processor is Sleeping.
+[0m
+[0;32mI (20762) main: The Processor is Sleeping.
+[0m
+[0;32mI (20772) main: The Processor is Sleeping.
+[0m
+[0;32mI (20782) main: The Processor is Sleeping.
+[0m
+[0;32mI (20792) main: The Processor is Sleeping.
+[0m
+[0;32mI (20802) main: The Processor is Sleeping.
+[0m
+[0;32mI (20812) main: The Processor is Sleeping.
+[0m
+[0;32mI (20822) main: The Processor is Sleeping.
+[0m
+[0;32mI (20832) main: The Processor is Sleeping.
+[0m
+[0;32mI (20842) main: The Processor is Sleeping.
+[0m
+[0;32mI (20852) main: The Processor is Sleeping.
+[0m
+[0;32mI (20862) main: The Processor is Sleeping.
+[0m
+[0;32mI (20872) main: The Processor is Sleeping.
+[0m
+[0;32mI (20882) main: The Processor is Sleeping.
+[0m
+[0;32mI (20892) main: The Processor is Sleeping.
+[0m
+[0;32mI (20902) main: The Processor is Sleeping.
+[0m
+[0;32mI (20912) main: The Processor is Sleeping.
+[0m
+[0;32mI (20922) main: The Processor is Sleeping.
+[0m
+[0;32mI (20932) main: The Processor is Sleeping.
+[0m
+[0;32mI (20942) main: The Processor is Sleeping.
+[0m
+[0;32mI (20952) main: The Processor is Sleeping.
+[0m
+[0;32mI (20962) main: The Processor is Sleeping.
+[0m
+[0;32mI (20972) main: The Processor is Sleeping.
+[0m
+[0;32mI (20982) main: The Processor is Sleeping.
+[0m
+[0;32mI (20992) main: The Processor is Sleeping.
+[0m
+[0;32mI (21002) main: The Processor is Sleeping.
+[0m
+[0;32mI (21012) main: The Processor is Sleeping.
+[0m
+[0;32mI (21022) main: The Processor is Sleeping.
+[0m
+[0;32mI (21032) main: The Processor is Sleeping.
+[0m
+[0;32mI (21042) main: The Processor is Sleeping.
+[0m
+[0;32mI (21052) main: The Processor is Sleeping.
+[0m
+[0;32mI (21062) main: The Processor is Sleeping.
+[0m
+[0;32mI (21072) main: The Processor is Sleeping.
+[0m
+[0;32mI (21082) main: The Processor is Sleeping.
+[0m
+[0;32mI (21092) main: The Processor is Sleeping.
+[0m
+[0;32mI (21102) main: The Processor is Sleeping.
+[0m
+[0;32mI (21112) main: The Processor is Sleeping.
+[0m
+[0;32mI (21122) main: The Processor is Sleeping.
+[0m
+[0;32mI (21132) main: The Processor is Sleeping.
+[0m
+[0;32mI (21142) main: The Processor is Sleeping.
+[0m
+[0;32mI (21152) main: The Processor is Sleeping.
+[0m
+[0;32mI (21162) main: The Processor is Sleeping.
+[0m
+[0;32mI (21172) main: The Processor is Sleeping.
+[0m
+[0;32mI (21182) main: The Processor is Sleeping.
+[0m
+[0;32mI (21192) main: The Processor is Sleeping.
+[0m
+[0;32mI (21202) main: The Processor is Sleeping.
+[0m
+[0;32mI (21212) main: The Processor is Sleeping.
+[0m
+[0;32mI (21222) main: The Processor is Sleeping.
+[0m
+[0;32mI (21232) main: The Processor is Sleeping.
+[0m
+[0;32mI (21242) main: LED is turning on...
+[0m
+[0;32mI (21741) main: Task 1 is complete.
+[0m
+[0;32mI (21743) main: LED is turning off...
+[0m
+[0;32mI (22242) main: Task 2 is complete.
+[0m
+[0;32mI (22244) main: Status of GPIO2: 0
+[0m
+[0;32mI (22246) main: Task 3 is complete.
+[0m
+[0;32mI (22248) main: The Processor is Sleeping.
+[0m
+[0;32mI (22262) main: The Processor is Sleeping.
+[0m
+[0;32mI (22272) main: The Processor is Sleeping.
+[0m
+[0;32mI (22282) main: The Processor is Sleeping.
+[0m
+[0;32mI (22292) main: The Processor is Sleeping.
+[0m
+[0;32mI (22302) main: The Processor is Sleeping.
+[0m
+[0;32mI (22312) main: The Processor is Sleeping.
+[0m
+[0;32mI (22322) main: The Processor is Sleeping.
+[0m
+[0;32mI (22332) main: The Processor is Sleeping.
+[0m
+[0;32mI (22342) main: The Processor is Sleeping.
+[0m
+[0;32mI (22352) main: The Processor is Sleeping.
+[0m
+[0;32mI (22362) main: The Processor is Sleeping.
+[0m
+[0;32mI (22372) main: The Processor is Sleeping.
+[0m
+[0;32mI (22382) main: The Processor is Sleeping.
+[0m
+[0;32mI (22392) main: The Processor is Sleeping.
+[0m
+[0;32mI (22402) main: The Processor is Sleeping.
+[0m
+[0;32mI (22412) main: The Processor is Sleeping.
+[0m
+[0;32mI (22422) main: The Processor is Sleeping.
+[0m
+[0;32mI (22432) main: The Processor is Sleeping.
+[0m
+[0;32mI (22442) main: The Processor is Sleeping.
+[0m
+[0;32mI (22452) main: The Processor is Sleeping.
+[0m
+[0;32mI (22462) main: The Processor is Sleeping.
+[0m
+[0;32mI (22472) main: The Processor is Sleeping.
+[0m
+[0;32mI (22482) main: The Processor is Sleeping.
+[0m
+[0;32mI (22492) main: The Processor is Sleeping.
+[0m
+[0;32mI (22502) main: The Processor is Sleeping.
+[0m
+[0;32mI (22512) main: The Processor is Sleeping.
+[0m
+[0;32mI (22522) main: The Processor is Sleeping.
+[0m
+[0;32mI (22532) main: The Processor is Sleeping.
+[0m
+[0;32mI (22542) main: The Processor is Sleeping.
+[0m
+[0;32mI (22552) main: The Processor is Sleeping.
+[0m
+[0;32mI (22562) main: The Processor is Sleeping.
+[0m
+[0;32mI (22572) main: The Processor is Sleeping.
+[0m
+[0;32mI (22582) main: The Processor is Sleeping.
+[0m
+[0;32mI (22592) main: The Processor is Sleeping.
+[0m
+[0;32mI (22602) main: The Processor is Sleeping.
+[0m
+[0;32mI (22612) main: The Processor is Sleeping.
+[0m
+[0;32mI (22622) main: The Processor is Sleeping.
+[0m
+[0;32mI (22632) main: The Processor is Sleeping.
+[0m
+[0;32mI (22642) main: The Processor is Sleeping.
+[0m
+[0;32mI (22652) main: The Processor is Sleeping.
+[0m
+[0;32mI (22662) main: The Processor is Sleeping.
+[0m
+[0;32mI (22672) main: The Processor is Sleeping.
+[0m
+[0;32mI (22682) main: The Processor is Sleeping.
+[0m
+[0;32mI (22692) main: The Processor is Sleeping.
+[0m
+[0;32mI (22702) main: The Processor is Sleeping.
+[0m
+[0;32mI (22712) main: The Processor is Sleeping.
+[0m
+[0;32mI (22722) main: The Processor is Sleeping.
+[0m
+[0;32mI (22732) main: The Processor is Sleeping.
+[0m
+[0;32mI (22742) main: LED is turning on...
+[0m
+[0;32mI (23241) main: Task 1 is complete.
+[0m
+[0;32mI (23243) main: LED is turning off...
+[0m
+[0;32mI (23742) main: Task 2 is complete.
+[0m
+[0;32mI (23744) main: Status of GPIO2: 0
+[0m
+[0;32mI (23746) main: Task 3 is complete.
+[0m
+[0;32mI (23748) main: The Processor is Sleeping.
+[0m
+[0;32mI (23762) main: The Processor is Sleeping.
+[0m
+[0;32mI (23772) main: The Processor is Sleeping.
+[0m
+[0;32mI (23782) main: The Processor is Sleeping.
+[0m
+[0;32mI (23792) main: The Processor is Sleeping.
+[0m
+[0;32mI (23802) main: The Processor is Sleeping.
+[0m
+[0;32mI (23812) main: The Processor is Sleeping.
+[0m
+[0;32mI (23822) main: The Processor is Sleeping.
+[0m
+[0;32mI (23832) main: The Processor is Sleeping.
+[0m
+[0;32mI (23842) main: The Processor is Sleeping.
+[0m
+[0;32mI (23852) main: The Processor is Sleeping.
+[0m
+[0;32mI (23862) main: The Processor is Sleeping.
+[0m
+[0;32mI (23872) main: The Processor is Sleeping.
+[0m
+[0;32mI (23882) main: The Processor is Sleeping.
+[0m
+[0;32mI (23892) main: The Processor is Sleeping.
+[0m
+[0;32mI (23902) main: The Processor is Sleeping.
+[0m
+[0;32mI (23912) main: The Processor is Sleeping.
+[0m
+[0;32mI (23922) main: The Processor is Sleeping.
+[0m
+[0;32mI (23932) main: The Processor is Sleeping.
+[0m
+[0;32mI (23942) main: The Processor is Sleeping.
+[0m
+[0;32mI (23952) main: The Processor is Sleeping.
+[0m
+[0;32mI (23962) main: The Processor is Sleeping.
+[0m
+[0;32mI (23972) main: The Processor is Sleeping.
+[0m
+[0;32mI (23982) main: The Processor is Sleeping.
+[0m
+[0;32mI (23992) main: The Processor is Sleeping.
+[0m
+[0;32mI (24002) main: The Processor is Sleeping.
+[0m
+[0;32mI (24012) main: The Processor is Sleeping.
+[0m
+[0;32mI (24022) main: The Processor is Sleeping.
+[0m
+[0;32mI (24032) main: The Processor is Sleeping.
+[0m
+[0;32mI (24042) main: The Processor is Sleeping.
+[0m
+[0;32mI (24052) main: The Processor is Sleeping.
+[0m
+[0;32mI (24062) main: The Processor is Sleeping.
+[0m
+[0;32mI (24072) main: The Processor is Sleeping.
+[0m
+[0;32mI (24082) main: The Processor is Sleeping.
+[0m
+[0;32mI (24092) main: The Processor is Sleeping.
+[0m
+[0;32mI (24102) main: The Processor is Sleeping.
+[0m
+[0;32mI (24112) main: The Processor is Sleeping.
+[0m
+[0;32mI (24122) main: The Processor is Sleeping.
+[0m
+[0;32mI (24132) main: The Processor is Sleeping.
+[0m
+[0;32mI (24142) main: The Processor is Sleeping.
+[0m
+[0;32mI (24152) main: The Processor is Sleeping.
+[0m
+[0;32mI (24162) main: The Processor is Sleeping.
+[0m
+[0;32mI (24172) main: The Processor is Sleeping.
+[0m
+[0;32mI (24182) main: The Processor is Sleeping.
+[0m
+[0;32mI (24192) main: The Processor is Sleeping.
+[0m
+[0;32mI (24202) main: The Processor is Sleeping.
+[0m
+[0;32mI (24212) main: The Processor is Sleeping.
+[0m
+[0;32mI (24222) main: The Processor is Sleeping.
+[0m
+[0;32mI (24232) main: The Processor is Sleeping.
+[0m
+[0;32mI (24242) main: LED is turning on...
+[0m
+[0;32mI (24741) main: Task 1 is complete.
+[0m
+[0;32mI (24743) main: LED is turning off...
+[0m
+[0;32mI (25242) main: Task 2 is complete.
+[0m
+[0;32mI (25244) main: Status of GPIO2: 0
+[0m
+[0;32mI (25246) main: Task 3 is complete.
+[0m
+[0;32mI (25248) main: The Processor is Sleeping.
+[0m
+[0;32mI (25262) main: The Processor is Sleeping.
+[0m
+[0;32mI (25272) main: The Processor is Sleeping.
+[0m
+[0;32mI (25282) main: The Processor is Sleeping.
+[0m
+[0;32mI (25292) main: The Processor is Sleeping.
+[0m
+[0;32mI (25302) main: The Processor is Sleeping.
+[0m
+[0;32mI (25312) main: The Processor is Sleeping.
+[0m
+[0;32mI (25322) main: The Processor is Sleeping.
+[0m
+[0;32mI (25332) main: The Processor is Sleeping.
+[0m
+[0;32mI (25342) main: The Processor is Sleeping.
+[0m
+[0;32mI (25352) main: The Processor is Sleeping.
+[0m
+[0;32mI (25362) main: The Processor is Sleeping.
+[0m
+[0;32mI (25372) main: The Processor is Sleeping.
+[0m
+[0;32mI (25382) main: The Processor is Sleeping.
+[0m
+[0;32mI (25392) main: The Processor is Sleeping.
+[0m
+[0;32mI (25402) main: The Processor is Sleeping.
+[0m
+[0;32mI (25412) main: The Processor is Sleeping.
+[0m
+[0;32mI (25422) main: The Processor is Sleeping.
+[0m
+[0;32mI (25432) main: The Processor is Sleeping.
+[0m
+[0;32mI (25442) main: The Processor is Sleeping.
+[0m
+[0;32mI (25452) main: The Processor is Sleeping.
+[0m
+[0;32mI (25462) main: The Processor is Sleeping.
+[0m
+[0;32mI (25472) main: The Processor is Sleeping.
+[0m
+[0;32mI (25482) main: The Processor is Sleeping.
+[0m
+[0;32mI (25492) main: The Processor is Sleeping.
+[0m
+[0;32mI (25502) main: The Processor is Sleeping.
+[0m
+[0;32mI (25512) main: The Processor is Sleeping.
+[0m
+[0;32mI (25522) main: The Processor is Sleeping.
+[0m
+[0;32mI (25532) main: The Processor is Sleeping.
+[0m
+[0;32mI (25542) main: The Processor is Sleeping.
+[0m
+[0;32mI (25552) main: The Processor is Sleeping.
+[0m
+[0;32mI (25562) main: The Processor is Sleeping.
+[0m
+[0;32mI (25572) main: The Processor is Sleeping.
+[0m
+[0;32mI (25582) main: The Processor is Sleeping.
+[0m
+[0;32mI (25592) main: The Processor is Sleeping.
+[0m
+[0;32mI (25602) main: The Processor is Sleeping.
+[0m
+[0;32mI (25612) main: The Processor is Sleeping.
+[0m
+[0;32mI (25622) main: The Processor is Sleeping.
+[0m
+[0;32mI (25632) main: The Processor is Sleeping.
+[0m
+[0;32mI (25642) main: The Processor is Sleeping.
+[0m
+[0;32mI (25652) main: The Processor is Sleeping.
+[0m
+[0;32mI (25662) main: The Processor is Sleeping.
+[0m
+[0;32mI (25672) main: The Processor is Sleeping.
+[0m
+[0;32mI (25682) main: The Processor is Sleeping.
+[0m
+[0;32mI (25692) main: The Processor is Sleeping.
+[0m
+[0;32mI (25702) main: The Processor is Sleeping.
+[0m
+[0;32mI (25712) main: The Processor is Sleeping.
+[0m
+[0;32mI (25722) main: The Processor is Sleeping.
+[0m
+[0;32mI (25732) main: The Processor is Sleeping.
+[0m
+[0;32mI (25742) main: LED is turning on...
+[0m
+[0;32mI (26241) main: Task 1 is complete.
+[0m
+[0;32mI (26243) main: LED is turning off...
+[0m
+[0;32mI (26742) main: Task 2 is complete.
+[0m
+[0;32mI (26744) main: Status of GPIO2: 0
+[0m
+[0;32mI (26746) main: Task 3 is complete.
+[0m
+[0;32mI (26748) main: The Processor is Sleeping.
+[0m
+[0;32mI (26762) main: The Processor is Sleeping.
+[0m
+[0;32mI (26772) main: The Processor is Sleeping.
+[0m
+[0;32mI (26782) main: The Processor is Sleeping.
+[0m
+[0;32mI (26792) main: The Processor is Sleeping.
+[0m
+[0;32mI (26802) main: The Processor is Sleeping.
+[0m
+[0;32mI (26812) main: The Processor is Sleeping.
+[0m
+[0;32mI (26822) main: The Processor is Sleeping.
+[0m
+[0;32mI (26832) main: The Processor is Sleeping.
+[0m
+[0;32mI (26842) main: The Processor is Sleeping.
+[0m
+[0;32mI (26852) main: The Processor is Sleeping.
+[0m
+[0;32mI (26862) main: The Processor is Sleeping.
+[0m
+[0;32mI (26872) main: The Processor is Sleeping.
+[0m
+[0;32mI (26882) main: The Processor is Sleeping.
+[0m
+[0;32mI (26892) main: The Processor is Sleeping.
+[0m
+[0;32mI (26902) main: The Processor is Sleeping.
+[0m
+[0;32mI (26912) main: The Processor is Sleeping.
+[0m
+[0;32mI (26922) main: The Processor is Sleeping.
+[0m
+[0;32mI (26932) main: The Processor is Sleeping.
+[0m
+[0;32mI (26942) main: The Processor is Sleeping.
+[0m
+[0;32mI (26952) main: The Processor is Sleeping.
+[0m
+[0;32mI (26962) main: The Processor is Sleeping.
+[0m
+[0;32mI (26972) main: The Processor is Sleeping.
+[0m
+[0;32mI (26982) main: The Processor is Sleeping.
+[0m
+[0;32mI (26992) main: The Processor is Sleeping.
+[0m
+[0;32mI (27002) main: The Processor is Sleeping.
+[0m
+[0;32mI (27012) main: The Processor is Sleeping.
+[0m
+[0;32mI (27022) main: The Processor is Sleeping.
+[0m
+[0;32mI (27032) main: The Processor is Sleeping.
+[0m
+[0;32mI (27042) main: The Processor is Sleeping.
+[0m
+[0;32mI (27052) main: The Processor is Sleeping.
+[0m
+[0;32mI (27062) main: The Processor is Sleeping.
+[0m
+[0;32mI (27072) main: The Processor is Sleeping.
+[0m
+[0;32mI (27082) main: The Processor is Sleeping.
+[0m
+[0;32mI (27092) main: The Processor is Sleeping.
+[0m
+[0;32mI (27102) main: The Processor is Sleeping.
+[0m
+[0;32mI (27112) main: The Processor is Sleeping.
+[0m
+[0;32mI (27122) main: The Processor is Sleeping.
+[0m
+[0;32mI (27132) main: The Processor is Sleeping.
+[0m
+[0;32mI (27142) main: The Processor is Sleeping.
+[0m
+[0;32mI (27152) main: The Processor is Sleeping.
+[0m
+[0;32mI (27162) main: The Processor is Sleeping.
+[0m
+[0;32mI (27172) main: The Processor is Sleeping.
+[0m
+[0;32mI (27182) main: The Processor is Sleeping.
+[0m
+[0;32mI (27192) main: The Processor is Sleeping.
+[0m
+[0;32mI (27202) main: The Processor is Sleeping.
+[0m
+[0;32mI (27212) main: The Processor is Sleeping.
+[0m
+[0;32mI (27222) main: The Processor is Sleeping.
+[0m
+[0;32mI (27232) main: The Processor is Sleeping.
+[0m
+[0;32mI (27242) main: LED is turning on...
+[0m
+[0;32mI (27741) main: Task 1 is complete.
+[0m
+[0;32mI (27743) main: LED is turning off...
+[0m
+[0;32mI (28242) main: Task 2 is complete.
+[0m
+[0;32mI (28244) main: Status of GPIO2: 0
+[0m
+[0;32mI (28246) main: Task 3 is complete.
+[0m
+[0;32mI (28248) main: The Processor is Sleeping.
+[0m
+[0;32mI (28262) main: The Processor is Sleeping.
+[0m
+[0;32mI (28272) main: The Processor is Sleeping.
+[0m
+[0;32mI (28282) main: The Processor is Sleeping.
+[0m
+[0;32mI (28292) main: The Processor is Sleeping.
+[0m
+[0;32mI (28302) main: The Processor is Sleeping.
+[0m
+[0;32mI (28312) main: The Processor is Sleeping.
+[0m
+[0;32mI (28322) main: The Processor is Sleeping.
+[0m
+[0;32mI (28332) main: The Processor is Sleeping.
+[0m
+[0;32mI (28342) main: The Processor is Sleeping.
+[0m
+[0;32mI (28352) main: The Processor is Sleeping.
+[0m
+[0;32mI (28362) main: The Processor is Sleeping.
+[0m
+[0;32mI (28372) main: The Processor is Sleeping.
+[0m
+[0;32mI (28382) main: The Processor is Sleeping.
+[0m
+[0;32mI (28392) main: The Processor is Sleeping.
+[0m
+[0;32mI (28402) main: The Processor is Sleeping.
+[0m
+[0;32mI (28412) main: The Processor is Sleeping.
+[0m
+[0;32mI (28422) main: The Processor is Sleeping.
+[0m
+[0;32mI (28432) main: The Processor is Sleeping.
+[0m
+[0;32mI (28442) main: The Processor is Sleeping.
+[0m
+[0;32mI (28452) main: The Processor is Sleeping.
+[0m
+[0;32mI (28462) main: The Processor is Sleeping.
+[0m
+[0;32mI (28472) main: The Processor is Sleeping.
+[0m
+[0;32mI (28482) main: The Processor is Sleeping.
+[0m
+[0;32mI (28492) main: The Processor is Sleeping.
+[0m
+[0;32mI (28502) main: The Processor is Sleeping.
+[0m
+[0;32mI (28512) main: The Processor is Sleeping.
+[0m
+[0;32mI (28522) main: The Processor is Sleeping.
+[0m
+[0;32mI (28532) main: The Processor is Sleeping.
+[0m
+[0;32mI (28542) main: The Processor is Sleeping.
+[0m
+[0;32mI (28552) main: The Processor is Sleeping.
+[0m
+[0;32mI (28562) main: The Processor is Sleeping.
+[0m
+[0;32mI (28572) main: The Processor is Sleeping.
+[0m
+[0;32mI (28582) main: The Processor is Sleeping.
+[0m
+[0;32mI (28592) main: The Processor is Sleeping.
+[0m
+[0;32mI (28602) main: The Processor is Sleeping.
+[0m
+[0;32mI (28612) main: The Processor is Sleeping.
+[0m
+[0;32mI (28622) main: The Processor is Sleeping.
+[0m
+[0;32mI (28632) main: The Processor is Sleeping.
+[0m
+[0;32mI (28642) main: The Processor is Sleeping.
+[0m
+[0;32mI (28652) main: The Processor is Sleeping.
+[0m
+[0;32mI (28662) main: The Processor is Sleeping.
+[0m
+[0;32mI (28672) main: The Processor is Sleeping.
+[0m
+[0;32mI (28682) main: The Processor is Sleeping.
+[0m
+[0;32mI (28692) main: The Processor is Sleeping.
+[0m
+[0;32mI (28702) main: The Processor is Sleeping.
+[0m
+[0;32mI (28712) main: The Processor is Sleeping.
+[0m
+[0;32mI (28722) main: The Processor is Sleeping.
+[0m
+[0;32mI (28732) main: The Processor is Sleeping.
+[0m
+[0;32mI (28742) main: LED is turning on...
+[0m
+[0;32mI (29241) main: Task 1 is complete.
+[0m
+[0;32mI (29243) main: LED is turning off...
+[0m
+[0;32mI (29742) main: Task 2 is complete.
+[0m
+[0;32mI (29744) main: Status of GPIO2: 0
+[0m
+[0;32mI (29746) main: Task 3 is complete.
+[0m
+[0;32mI (29748) main: The Processor is Sleeping.
+[0m
+[0;32mI (29762) main: The Processor is Sleeping.
+[0m
+[0;32mI (29772) main: The Processor is Sleeping.
+[0m
+[0;32mI (29782) main: The Processor is Sleeping.
+[0m
+[0;32mI (29792) main: The Processor is Sleeping.
+[0m
+[0;32mI (29802) main: The Processor is Sleeping.
+[0m
+[0;32mI (29812) main: The Processor is Sleeping.
+[0m
+[0;32mI (29822) main: The Processor is Sleeping.
+[0m
+[0;32mI (29832) main: The Processor is Sleeping.
+[0m
+[0;32mI (29842) main: The Processor is Sleeping.
+[0m
+[0;32mI (29852) main: The Processor is Sleeping.
+[0m
+[0;32mI (29862) main: The Processor is Sleeping.
+[0m
+[0;32mI (29872) main: The Processor is Sleeping.
+[0m
+[0;32mI (29882) main: The Processor is Sleeping.
+[0m
+[0;32mI (29892) main: The Processor is Sleeping.
+[0m
+[0;32mI (29902) main: The Processor is Sleeping.
+[0m
+[0;32mI (29912) main: The Processor is Sleeping.
+[0m
+[0;32mI (29922) main: The Processor is Sleeping.
+[0m
+[0;32mI (29932) main: The Processor is Sleeping.
+[0m
+[0;32mI (29942) main: The Processor is Sleeping.
+[0m
+[0;32mI (29952) main: The Processor is Sleeping.
+[0m
+[0;32mI (29962) main: The Processor is Sleeping.
+[0m
+[0;32mI (29972) main: The Processor is Sleeping.
+[0m
+[0;32mI (29982) main: The Processor is Sleeping.
+[0m
+[0;32mI (29992) main: The Processor is Sleeping.
+[0m
+[0;32mI (30002) main: The Processor is Sleeping.
+[0m
+[0;32mI (30012) main: The Processor is Sleeping.
+[0m
+[0;32mI (30022) main: The Processor is Sleeping.
+[0m
+[0;32mI (30032) main: The Processor is Sleeping.
+[0m
+[0;32mI (30042) main: The Processor is Sleeping.
+[0m
+[0;32mI (30052) main: The Processor is Sleeping.
+[0m
+[0;32mI (30062) main: The Processor is Sleeping.
+[0m
+[0;32mI (30072) main: The Processor is Sleeping.
+[0m
+[0;32mI (30082) main: The Processor is Sleeping.
+[0m
+[0;32mI (30092) main: The Processor is Sleeping.
+[0m
+[0;32mI (30102) main: The Processor is Sleeping.
+[0m
+[0;32mI (30112) main: The Processor is Sleeping.
+[0m
+[0;32mI (30123) main: The Processor is Sleeping.
+[0m
+[0;32mI (30133) main: The Processor is Sleeping.
+[0m
+[0;32mI (30143) main: The Processor is Sleeping.
+[0m
+[0;32mI (30153) main: The Processor is Sleeping.
+[0m
+[0;32mI (30163) main: The Processor is Sleeping.
+[0m
+[0;32mI (30173) main: The Processor is Sleeping.
+[0m
+[0;32mI (30183) main: The Processor is Sleeping.
+[0m
+[0;32mI (30193) main: The Processor is Sleeping.
+[0m
+[0;32mI (30203) main: The Processor is Sleeping.
+[0m
+[0;32mI (30213) main: The Processor is Sleeping.
+[0m
+[0;32mI (30223) main: The Processor is Sleeping.
+[0m
+[0;32mI (30233) main: The Processor is Sleeping.
+[0m
+[0;32mI (30243) main: LED is turning on...
+[0m
+[0;32mI (30742) main: Task 1 is complete.
+[0m
+[0;32mI (30744) main: LED is turning off...
+[0m
+[0;32mI (31243) main: Task 2 is complete.
+[0m
+[0;32mI (31245) main: Status of GPIO2: 0
+[0m
+[0;32mI (31247) main: Task 3 is complete.
+[0m
+[0;32mI (31249) main: The Processor is Sleeping.
+[0m
+[0;32mI (31263) main: The Processor is Sleeping.
+[0m
+[0;32mI (31273) main: The Processor is Sleeping.
+[0m
+[0;32mI (31283) main: The Processor is Sleeping.
+[0m
+[0;32mI (31293) main: The Processor is Sleeping.
+[0m
+[0;32mI (31303) main: The Processor is Sleeping.
+[0m
+[0;32mI (31313) main: The Processor is Sleeping.
+[0m
+[0;32mI (31323) main: The Processor is Sleeping.
+[0m
+[0;32mI (31333) main: The Processor is Sleeping.
+[0m
+[0;32mI (31343) main: The Processor is Sleeping.
+[0m
+[0;32mI (31353) main: The Processor is Sleeping.
+[0m
+[0;32mI (31363) main: The Processor is Sleeping.
+[0m
+[0;32mI (31373) main: The Processor is Sleeping.
+[0m
+[0;32mI (31383) main: The Processor is Sleeping.
+[0m
+[0;32mI (31393) main: The Processor is Sleeping.
+[0m
+[0;32mI (31403) main: The Processor is Sleeping.
+[0m
+[0;32mI (31413) main: The Processor is Sleeping.
+[0m
+[0;32mI (31423) main: The Processor is Sleeping.
+[0m
+[0;32mI (31433) main: The Processor is Sleeping.
+[0m
+[0;32mI (31443) main: The Processor is Sleeping.
+[0m
+[0;32mI (31453) main: The Processor is Sleeping.
+[0m
+[0;32mI (31463) main: The Processor is Sleeping.
+[0m
+[0;32mI (31473) main: The Processor is Sleeping.
+[0m
+[0;32mI (31483) main: The Processor is Sleeping.
+[0m
+[0;32mI (31493) main: The Processor is Sleeping.
+[0m
+[0;32mI (31503) main: The Processor is Sleeping.
+[0m
+[0;32mI (31513) main: The Processor is Sleeping.
+[0m
+[0;32mI (31523) main: The Processor is Sleeping.
+[0m
+[0;32mI (31533) main: The Processor is Sleeping.
+[0m
+[0;32mI (31543) main: The Processor is Sleeping.
+[0m
+[0;32mI (31553) main: The Processor is Sleeping.
+[0m
+[0;32mI (31563) main: The Processor is Sleeping.
+[0m
+[0;32mI (31573) main: The Processor is Sleeping.
+[0m
+[0;32mI (31583) main: The Processor is Sleeping.
+[0m
+[0;32mI (31593) main: The Processor is Sleeping.
+[0m
+[0;32mI (31603) main: The Processor is Sleeping.
+[0m
+[0;32mI (31613) main: The Processor is Sleeping.
+[0m
+[0;32mI (31623) main: The Processor is Sleeping.
+[0m
+[0;32mI (31633) main: The Processor is Sleeping.
+[0m
+[0;32mI (31643) main: The Processor is Sleeping.
+[0m
+[0;32mI (31653) main: The Processor is Sleeping.
+[0m
+[0;32mI (31663) main: The Processor is Sleeping.
+[0m
+[0;32mI (31673) main: The Processor is Sleeping.
+[0m
+[0;32mI (31683) main: The Processor is Sleeping.
+[0m
+[0;32mI (31693) main: The Processor is Sleeping.
+[0m
+[0;32mI (31703) main: The Processor is Sleeping.
+[0m
+[0;32mI (31713) main: The Processor is Sleeping.
+[0m
+[0;32mI (31723) main: The Processor is Sleeping.
+[0m
+[0;32mI (31733) main: The Processor is Sleeping.
+[0m
+[0;32mI (31743) main: LED is turning on...
+[0m
+[0;32mI (32242) main: Task 1 is complete.
+[0m
+[0;32mI (32244) main: LED is turning off...
+[0m
+[0;32mI (32743) main: Task 2 is complete.
+[0m
+[0;32mI (32745) main: Status of GPIO2: 0
+[0m
+[0;32mI (32747) main: Task 3 is complete.
+[0m
+[0;32mI (32749) main: The Processor is Sleeping.
+[0m
+[0;32mI (32763) main: The Processor is Sleeping.
+[0m
+[0;32mI (32773) main: The Processor is Sleeping.
+[0m
+[0;32mI (32783) main: The Processor is Sleeping.
+[0m
+[0;32mI (32793) main: The Processor is Sleeping.
+[0m
+[0;32mI (32803) main: The Processor is Sleeping.
+[0m
+[0;32mI (32813) main: The Processor is Sleeping.
+[0m
+[0;32mI (32823) main: The Processor is Sleeping.
+[0m
+[0;32mI (32833) main: The Processor is Sleeping.
+[0m
+[0;32mI (32843) main: The Processor is Sleeping.
+[0m
+[0;32mI (32853) main: The Processor is Sleeping.
+[0m
+[0;32mI (32863) main: The Processor is Sleeping.
+[0m
+[0;32mI (32873) main: The Processor is Sleeping.
+[0m
+[0;32mI (32883) main: The Processor is Sleeping.
+[0m
+[0;32mI (32893) main: The Processor is Sleeping.
+[0m
+[0;32mI (32903) main: The Processor is Sleeping.
+[0m
+[0;32mI (32913) main: The Processor is Sleeping.
+[0m
+[0;32mI (32923) main: The Processor is Sleeping.
+[0m
+[0;32mI (32933) main: The Processor is Sleeping.
+[0m
+[0;32mI (32943) main: The Processor is Sleeping.
+[0m
+[0;32mI (32953) main: The Processor is Sleeping.
+[0m
+[0;32mI (32963) main: The Processor is Sleeping.
+[0m
+[0;32mI (32973) main: The Processor is Sleeping.
+[0m
+[0;32mI (32983) main: The Processor is Sleeping.
+[0m
+[0;32mI (32993) main: The Processor is Sleeping.
+[0m
+[0;32mI (33003) main: The Processor is Sleeping.
+[0m
+[0;32mI (33013) main: The Processor is Sleeping.
+[0m
+[0;32mI (33023) main: The Processor is Sleeping.
+[0m
+[0;32mI (33033) main: The Processor is Sleeping.
+[0m
+[0;32mI (33043) main: The Processor is Sleeping.
+[0m
+[0;32mI (33053) main: The Processor is Sleeping.
+[0m
+[0;32mI (33063) main: The Processor is Sleeping.
+[0m
+[0;32mI (33073) main: The Processor is Sleeping.
+[0m
+[0;32mI (33083) main: The Processor is Sleeping.
+[0m
+[0;32mI (33093) main: The Processor is Sleeping.
+[0m
+[0;32mI (33103) main: The Processor is Sleeping.
+[0m
+[0;32mI (33113) main: The Processor is Sleeping.
+[0m
+[0;32mI (33123) main: The Processor is Sleeping.
+[0m
+[0;32mI (33133) main: The Processor is Sleeping.
+[0m
+[0;32mI (33143) main: The Processor is Sleeping.
+[0m
+[0;32mI (33153) main: The Processor is Sleeping.
+[0m
+[0;32mI (33163) main: The Processor is Sleeping.
+[0m
+[0;32mI (33173) main: The Processor is Sleeping.
+[0m
+[0;32mI (33183) main: The Processor is Sleeping.
+[0m
+[0;32mI (33193) main: The Processor is Sleeping.
+[0m
+[0;32mI (33203) main: The Processor is Sleeping.
+[0m
+[0;32mI (33213) main: The Processor is Sleeping.
+[0m
+[0;32mI (33223) main: The Processor is Sleeping.
+[0m
+[0;32mI (33233) main: The Processor is Sleeping.
+[0m
+[0;32mI (33243) main: LED is turning on...
+[0m
+[0;32mI (33742) main: Task 1 is complete.
+[0m
+[0;32mI (33744) main: LED is turning off...
+[0m
+[0;32mI (34243) main: Task 2 is complete.
+[0m
+[0;32mI (34245) main: Status of GPIO2: 0
+[0m
+[0;32mI (34247) main: Task 3 is complete.
+[0m
+[0;32mI (34249) main: The Processor is Sleeping.
+[0m
+[0;32mI (34263) main: The Processor is Sleeping.
+[0m
+[0;32mI (34273) main: The Processor is Sleeping.
+[0m
+[0;32mI (34283) main: The Processor is Sleeping.
+[0m
+[0;32mI (34293) main: The Processor is Sleeping.
+[0m
+[0;32mI (34303) main: The Processor is Sleeping.
+[0m
+[0;32mI (34313) main: The Processor is Sleeping.
+[0m
+[0;32mI (34323) main: The Processor is Sleeping.
+[0m
+[0;32mI (34333) main: The Processor is Sleeping.
+[0m
+[0;32mI (34343) main: The Processor is Sleeping.
+[0m
+[0;32mI (34353) main: The Processor is Sleeping
