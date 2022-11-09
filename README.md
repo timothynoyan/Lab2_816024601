@@ -17,7 +17,7 @@ The FreeRTOS kernel defaults are specified in the FreeRTOSConfig.h file. The fea
 
 ## Part 2
 
-The vTaskGetRunTimeStats() API function may be used to obtain task performance statistics.
+The **vTaskGetRunTimeStats()** API function may be used to obtain task performance statistics.
 
 FreeRTOS can track the amount of processing time used by each task. The FreeRTOS runtime statistics function may then be used to display this data. However, this option is not activated by default. To enable this feature, the following are required:
 * configGENERATE_RUN_TIME_STATS
