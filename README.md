@@ -6,19 +6,19 @@ In this application, three tasks were created in app_main:
 * task 3 - Prints a status message of the pin state
 
 For the output file q2b_123, the priority levels were assigned as follows:
-..* Task 1 - 3
-..* Task 2 - 2
-..* Task 3 - 1
+... Task 1 - 3
+... Task 2 - 2
+... Task 3 - 1
 	
 For the output file q2b_132, the priority levels were assigned as follows:
-..* Task 1 - 3
-..* Task 2 - 1
-..* Task 3 - 2
+... Task 1 - 3
+... Task 2 - 1
+... Task 3 - 2
 	
 For the output file q2b_213, the priority levels were assigned as follows:
-..* Task 1 - 2
-..* Task 2 - 1
-..* Task 3 - 3
+... Task 1 - 2
+... Task 2 - 1
+... Task 3 - 3
 	
 For "*q2b_123*", task 1 ran first, actively waited for 0.5 seconds, then it was task delayed for 1 second. Then, task 2 ran, actively waited for 0.5 seconds and was task delayed for one second. Lastly, task 3 ran and task delayed for one second. This was expected since priority inheritance never occurred because the task with the highest priority always ran before the task with the lowest priority.
 
