@@ -6,7 +6,7 @@ In this application, three tasks were created in app_main:
 * task 3 - Prints a status message of the pin state
 
 For the output file q2b_123, the priority levels were assigned as follows:
-... Task 1 - 3
+...Task 1 - 3
 ... Task 2 - 2
 ... Task 3 - 1
 	
