@@ -1,0 +1,3 @@
+## Question 3 Discussion
+
+The task priorities and code from "q1" were copied to "q3". In order to put the processor to sleep while it is not in use, an idle hook function was added to the file. The portSUPPRESS TICKS AND SLEEP() FreeRTOS-specific function is called by the idle hook function, which puts the processor to sleep until a task is ready. Tasks 1, task 2, and task 3 ran sequentially in the order stated where there was 0.5 seconds idle time after task 3 completed. During this idle time, the idle hook function gets called. This can be seen in the output file in lines 44 - 141. The idle hook terminates as soon as a task is ready, and the task sequence continues. The idle hook had no impact on the system performance. However, it would aid in power conservation.
